@@ -11,12 +11,12 @@ class App extends React.Component {
 			<div className="container">
 				<div className="row">
 					<div className="col-xs-10 col-xs-offset-1">
-							<Header/>
+							<Header homeLink={"HomeLink"}/>
 					</div>
 				</div>
 				<div className="row">
 					<div className="col-xs-10 col-xs-offset-1">
-							<Home/>
+							<Home name={"Vlad Melnikov"} age={21}/>
 					</div>
 				</div>
 			</div>
