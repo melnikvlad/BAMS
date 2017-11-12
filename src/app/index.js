@@ -1,27 +1,14 @@
-import React from "react";
+import React, { Component } from "react";
 import { render } from "react-dom";
-import 'bootstrap/dist/css/bootstrap.css'
+import {Main} from "./spa/Main";
 
-import {Header} from "./components/Header";
-import {Home} from "./components/Home";
 
 class App extends React.Component {
 	render() {
 		return(
-			<div className="container">
-				<div className="row">
-					<div className="col-xs-10 col-xs-offset-1">
-							<Header homeLink={"HomeLink"}/>
-					</div>
-				</div>
-				<div className="row">
-					<div className="col-xs-10 col-xs-offset-1">
-							<Home name={"Vlad Melnikov"} age={21}/>
-					</div>
-				</div>
-			</div>
+			<Main/>
 		);
 	}
 }
 
-render(<App/>, window.document.getElementById("app"));
+render(<App/>,  window.document.getElementById("app"));
