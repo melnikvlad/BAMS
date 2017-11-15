@@ -4,8 +4,8 @@ export class Stuff extends React.Component {
   render() {
     return (
       <div>
-        <h2>STUFF</h2>
-        <p>Mauris sem velit, vehicula eget sodales vitae,
+        <h2 className="title">STUFF</h2>
+        <p className="text">Mauris sem velit, vehicula eget sodales vitae,
         rhoncus eget sapien:</p>
         <ol>
           <li>Nulla pulvinar diam</li>
