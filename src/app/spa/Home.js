@@ -1,9 +1,9 @@
 import React from "react";
-
 export class Home extends React.Component {
   render() {
     return (
-      <div>
+
+      <div className="main_container">
         <h2>HELLO</h2>
         <p>Cras facilisis urna ornare ex volutpat, et
         convallis erat elementum. Ut aliquam, ipsum vitae

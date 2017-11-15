@@ -2,7 +2,7 @@ var path = require("path");
 
 var DIST_DIR = path.resolve(__dirname, "dist");
 var SRC_DIR = path.resolve(__dirname, "src");
-
+var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var config = {
 	entry: SRC_DIR + "/app/index.js",
 	output: {
@@ -21,21 +21,25 @@ var config = {
 					plugins: ["transform-class-properties"]
 				},
 			},
-			{
-			  test: /\.css$/,
-			  loader: 'css-loader',
-			  query: {
-			    modules: true,
-			    localIdentName: '[name]__[local]___[hash:base64:5]'
-			  }
+				{
+	        test: /\.(png|svg)$/,
+	        use: [
+	          {
+	            loader: 'url-loader',
+	            options: {
+	              limit: 8192
+	            }
+	          }
+	        ]
 			},
-  		{
-        test: /\.(png|jpg|gif|svg|eot|ttf|woff|woff2)$/,
-        loader: 'url-loader',
-        options: {
-          limit: 10000
-        }
-      }
+			{
+        test: /\.css$/,
+        use: [{
+          loader: 'style-loader'
+        }, {
+          loader: 'css-loader'
+        }]
+},
 		]
 	}
 };
