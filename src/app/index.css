@@ -1,5 +1,5 @@
 .main_container {
-    background-image: url('../assets/main.jpg');
+    background-image: url('assets/main.jpg');
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;

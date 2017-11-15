@@ -1,3 +1,4 @@
+var webpack = require("webpack");
 var path = require("path");
 
 var DIST_DIR = path.resolve(__dirname, "dist");
@@ -22,7 +23,7 @@ var config = {
 				},
 			},
 				{
-	        test: /\.(png|svg)$/,
+	        test: /\.(png|svg|jpg)$/,
 	        use: [
 	          {
 	            loader: 'url-loader',
@@ -39,7 +40,7 @@ var config = {
         }, {
           loader: 'css-loader'
         }]
-},
+			},
 		]
 	}
 };
