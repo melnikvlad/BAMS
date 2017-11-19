@@ -1,27 +1,119 @@
 
-html,body {
-  /*css for full size background image*/
-    background: url("assets/main.jpg") no-repeat center center fixed;
+.main {
+  width: 100%;
+  background: url("assets/main2.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+  .ic_logo {
+    background: url("assets/logo.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40vh;
+    height: 40vh;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+  }
+
+  .home_section_empty_part {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 80vh;
+    align-items: center;
+  }
+
+  .section_3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: url("assets/view2.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 100%;
-    background-color: #060;
-    color: #fff;
   }
 
+  .section_home_footer {
+    display: flex;
+    height: 500px;
+    align-items: center;
+    flex-direction: column;
+    background: url("assets/footer.jpg") no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 
-  .navbar {
+  .home_links {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 15%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo_text {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
     background-color: transparent;
   }
 
-  .navbar:hover {
-    background-color: white;
+  .text_logo_big {
+    color: white;
+    font-size: 32px;
+  }
+
+  .text_logo_small {
+    color: white;
+    font-size: 26px;
+  }
+
+  .white {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 120px;
+    background-color: transparent;
   }
 
   .text, li{
+    text-align: center;
     color: black;
+  }
+
+  li:hover {
+    font-weight: bold;
+    text-decoration: overline;
   }
 
   .title {
