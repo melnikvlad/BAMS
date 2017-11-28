@@ -13,7 +13,7 @@
 }
 
   .ic_logo {
-    background: url("assets/logo.jpg");
+    background: url("assets/logo_transparent.png");
     background-size: contain;
     background-repeat: no-repeat;
     width: 40vh;
@@ -45,6 +45,7 @@
 
   .section_3 {
     display: flex;
+    height: 100vh;
     align-items: center;
     flex-direction: column;
     background: url("assets/view2.jpg") no-repeat center center fixed;
@@ -65,6 +66,11 @@
     -o-background-size: cover;
     background-size: cover;
   }
+
+  .carousel-control.left, .carousel-control.right {
+   background-image:none !important;
+   filter:none !important;
+}
 
   .home_links {
     display: flex;
@@ -98,17 +104,30 @@
   }
 
   .white {
-    margin-top: 20px;
+    margin-top: 80px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: white;
+    opacity: 0.75;
     align-content: center;
-    height: 120px;
-    background-color: transparent;
   }
 
   .text, li{
     text-align: center;
     color: black;
+  }
+
+  .text_title {
+    font-size: 30px;
+    text-decoration: overline;
+    text-align: center;
+    color: black;
+    font-weight: bold;
   }
 
   li:hover {
@@ -120,3 +139,16 @@
     color: black;
     font-weight: bold;
   }
+
+.carousel {
+    height: 90vh;
+}
+
+.farmer_devider {
+  background: url("assets/farmer_devider.png") no-repeat top center fixed;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 20vh;
+}
