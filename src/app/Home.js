@@ -14,10 +14,10 @@ export class Home extends React.Component {
               </section>
 
               <section className=".container-fluid col-sm-12 home_section_empty_part">
-                <div className="col-sm-6 col-md-4 home_links">
-                    <p>Link1</p>
-                    <p>Link2</p>
-                    <p>Link3</p>
+                <div className="col-sm-6 col-md-3 home_links">
+                    <div className="instagram_icon"/>
+                    <div className="facebook_icon"/>
+                    <div className="vkontakte_icon"/>
                 </div>
               </section>
 

@@ -75,8 +75,6 @@
   .home_links {
     display: flex;
     flex-wrap: wrap;
-    color: white;
-    font-size: 20px;
     margin-bottom: 15%;
     flex-direction: row;
     justify-content: space-between;
@@ -151,4 +149,32 @@
   background-size: contain;
   background-repeat: no-repeat;
   height: 20vh;
+}
+
+.instagram_icon {
+  background: url("assets/instagram.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 7vh;
+  height: 7vh;
+}
+.vkontakte_icon {
+  background: url("assets/vkontakte.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 6vh;
+  height: 6vh;
+}
+.facebook_icon {
+  background: url("assets/facebook.png") ;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 7vh;
+  height: 7vh;
 }
