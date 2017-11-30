@@ -57,14 +57,20 @@
 
   .section_home_footer {
     display: flex;
-    height: 500px;
+    width: 100%;
+    height: 250px;
+    opacity: 0.8;
+    background-color: white;
+    justify-content: center;
+  }
+
+  .footer_media {
+
+    display: flex;
+    margin-top: 40px;
     align-items: center;
+    justify-content: flex-start;
     flex-direction: column;
-    background: url("assets/footer.jpg") no-repeat top center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
   }
 
   .carousel-control.left, .carousel-control.right {
@@ -151,14 +157,24 @@
   height: 20vh;
 }
 
+.footer_devider {
+  background: url("assets/separator.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 50vh;
+  height: 20vh;
+}
+
 .instagram_icon {
   background: url("assets/instagram.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-size: contain;
   background-repeat: no-repeat;
-  width: 7vh;
-  height: 7vh;
+  width: 5vh;
+  height: 5vh;
 }
 .vkontakte_icon {
   background: url("assets/vkontakte.png");
@@ -166,15 +182,54 @@
   background-repeat: no-repeat;
   background-size: contain;
   background-repeat: no-repeat;
-  width: 6vh;
-  height: 6vh;
+  width: 5vh;
+  height: 5vh;
 }
-.facebook_icon {
-  background: url("assets/facebook.png") ;
+
+.instagram_icon_black {
+  background: url("assets/insta_black.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-size: contain;
   background-repeat: no-repeat;
   width: 7vh;
   height: 7vh;
+}
+
+.facebook_icon_black {
+  background: url("assets/face_black.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 7vh;
+  height: 7vh;
+}
+
+.vkontakte_icon_black {
+  background: url("assets/vk_black.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 7vh;
+  height: 7vh;
+}
+
+.facebook_icon {
+  background: url("assets/facebook.png") ;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 5vh;
+
+}
+
+.me {
+  justify-content: center;
+  display: flex;
+  font-size: 16px;
+  color: black;
+  margin-bottom: 25px;
 }

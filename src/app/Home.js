@@ -1,6 +1,7 @@
 import React from "react";
 import styled from 'styled-components';
 
+
 export class Home extends React.Component {
   render() {
     return (
@@ -82,10 +83,21 @@ export class Home extends React.Component {
 
               </section>
 
-              <section className=".container-fluid col-sm-12 section_home_footer">
-
+              <section className=" container-fluid col-md-12 section_home_footer">
+                <div className="contaier col-md-12 footer_media">
+                    <div className="col-sm-6 col-md-3 home_links">
+                        <div className="instagram_icon_black"/>
+                        <div className="facebook_icon_black"/>
+                        <div className="vkontakte_icon_black"/>
+                    </div>
+                    <div className="footer_devider"/>
+                    <div className="me container-fluid col-md-4">
+                      <p>@ 2017 by Vlad Melnikov & Mary Vtyurina</p>
+                    </div>
+                </div>
               </section>
           </div>
+
     );
   }
 }
