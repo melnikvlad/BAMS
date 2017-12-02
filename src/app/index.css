@@ -12,6 +12,7 @@
   align-items: center;
 }
 
+
   .ic_logo {
     background: url("assets/logo_transparent.png");
     background-size: contain;
@@ -55,12 +56,127 @@
     background-size: cover;
   }
 
+  .section_invite {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    background: #eeeeee;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .invite_row {
+    display: flex;
+    width: 100vw;
+    height: 50vh;
+  }
+
+  .invite_block_row_1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: url("assets/invite_spider.jpg") center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .invite_block_row_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .invite_block_row_4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .invite_block_row_6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .inner_top {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 40%;
+
+  }
+
+  .vert_line {
+    height: 30%;
+    width: 2px;
+    background: black;
+  }
+
+  .inner_top_text {
+    color: black;
+    text-transform: uppercase;
+    font-size: 18px;
+  }
+
+  .inner_bot_text {
+    color: black;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .inner_bot_text_small {
+    color: black;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .inner_bot {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .invite_block_row_3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: url("assets/invite_pine.jpg") center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+
+  .invite_block_row_5 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: url("assets/invite_mashroom.jpg") center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+
+
   .section_home_footer {
     display: flex;
     width: 100%;
     height: 250px;
-    opacity: 0.8;
-    background-color: white;
+    background: #eeeeee;
     justify-content: center;
   }
 
@@ -79,12 +195,41 @@
 }
 
   .home_links {
+    width: 100vw;
+    padding: 40px;
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 15%;
     flex-direction: row;
-    justify-content: space-between;
+    background: white;
+    opacity: 0.75;
+    justify-content: center;
     align-items: center;
+  }
+
+  .button {
+    margin-left: 40px;
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-top: 6px;
+    
+    display: block;
+    border: 2px solid black;
+  }
+
+  .button:hover {
+    margin-left: 40px;
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-top: 6px;
+    display: block;
+    border: 2px dotted black;
+  }
+
+  .citata {
+    color: black;
+    font-size: 20px;
+    font-style: bold;
+
   }
 
   .logo_text {
@@ -167,25 +312,6 @@
   height: 20vh;
 }
 
-.instagram_icon {
-  background: url("assets/instagram.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 5vh;
-  height: 5vh;
-}
-.vkontakte_icon {
-  background: url("assets/vkontakte.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 5vh;
-  height: 5vh;
-}
-
 .instagram_icon_black {
   background: url("assets/insta_black.png");
   background-size: contain;
@@ -216,16 +342,35 @@
   height: 7vh;
 }
 
-.facebook_icon {
-  background: url("assets/facebook.png") ;
+.instagram_icon_black:hover {
+  background: url("assets/insta_black_hover.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-size: contain;
   background-repeat: no-repeat;
-  width: 5vh;
-
+  width: 7vh;
+  height: 7vh;
 }
 
+.facebook_icon_black:hover {
+  background: url("assets/face_black_hover.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 7vh;
+  height: 7vh;
+}
+
+.vkontakte_icon_black:hover {
+  background: url("assets/vk_black_hover.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 7vh;
+  height: 7vh;
+}
 .me {
   justify-content: center;
   display: flex;

@@ -12,10 +12,10 @@ export class Main extends React.Component {
         <div className=".container-fluid main">
             <div className="nav_container">
               <div className="navbar navbar-default navbar-fixed-top">
-                <ul className="nav navbar-nav ">
-                  <li><NavLink to="/">HOME</NavLink></li>
-                  <li><NavLink to="/stuff">STUFF</NavLink></li>
-                  <li><NavLink to="/contact">CONTACT</NavLink></li>
+                <ul className="nav navbar-nav">
+                  <li><NavLink to="/">ГЛАВНАЯ</NavLink></li>
+                  <li><NavLink to="/stuff">ПОХОДЫ</NavLink></li>
+                  <li><NavLink to="/contact">СНАРЯЖЕНИЕ</NavLink></li>
                 </ul>
               </div>
             </div>

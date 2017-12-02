@@ -15,11 +15,61 @@ export class Home extends React.Component {
               </section>
 
               <section className=".container-fluid col-sm-12 home_section_empty_part">
-                <div className="col-sm-6 col-md-3 home_links">
-                    <div className="instagram_icon"/>
-                    <div className="facebook_icon"/>
-                    <div className="vkontakte_icon"/>
+                <div className="col-sm-6 col-md-8 home_links">
+                    <p className="citata">Что-то там какая-то строка бородатый год и тар-ла-ла</p>
+                    <div className="button">
+                      <p className="citata">Нажми!</p>
+                    </div>
                 </div>
+              </section>
+
+              <section className="container col-md-12 section_invite">
+
+                  <div className="invite_row">
+                    <div className="container col-md-3 invite_block_row_1"/>
+                    <div className="container col-md-6 invite_block_row_2">
+
+                      <div className="container col-md-12 inner_top">
+                        <p className="inner_top_text">Что</p>
+                        <div className="vert_line"/>
+                      </div>
+
+                      <div className="container col-md-12 inner_bot">
+                          <p className="inner_bot_text">Very long text to present something</p>
+                      </div>
+
+                    </div>
+                    <div className="container col-md-3 invite_block_row_3"/>
+                  </div>
+
+                  <div className="invite_row">
+                    <div className="container col-md-3 invite_block_row_4">
+
+                      <div className="container col-md-12 inner_top">
+                        <p className="inner_top_text">Где</p>
+                        <div className="vert_line"/>
+                      </div>
+
+                      <div className="container col-md-12 inner_bot">
+                          <p className="inner_bot_text_small">Very long text </p>
+                      </div>
+
+                    </div>
+                    <div className="container col-md-6 invite_block_row_5"/>
+                    <div className="container col-md-3 invite_block_row_6">
+
+                      <div className="container col-md-12 inner_top">
+                        <p className="inner_top_text">Когда</p>
+                        <div className="vert_line"/>
+                      </div>
+
+                      <div className="container col-md-12 inner_bot">
+                          <p className="inner_bot_text_small">Very long text </p>
+                      </div>
+
+                    </div>
+                  </div>
+
               </section>
 
               <section className=".container-fluid col-sm-12 section_3">
@@ -92,7 +142,7 @@ export class Home extends React.Component {
                     </div>
                     <div className="footer_devider"/>
                     <div className="me container-fluid col-md-4">
-                      <p>@ 2017 by Vlad Melnikov & Mary Vtyurina</p>
+                      <p> 2017 by Vlad Melnikov & Mary Vtyurina ™</p>
                     </div>
                 </div>
               </section>
