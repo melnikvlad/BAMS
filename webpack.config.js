@@ -33,6 +33,7 @@ var config = {
 	          }
 	        ]
 			},
+			{ test: /\.json$/, loader: 'json-loader' },
 			{
         test: /\.css$/,
         use: [{
