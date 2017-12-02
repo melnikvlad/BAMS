@@ -1,0 +1,35 @@
+.trip_main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: #eeeeee;
+}
+.trip_section_header {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10vh;
+  height: 30vh;
+  align-items: center;
+
+}
+.trip_header_title {
+  color: black;
+  font-size: 50px;
+  text-decoration: overline;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+.trip_header_second_title {
+  color: black;
+  margin-top: 16px;
+  font-size: 25px;
+  opacity: 0.5;
+  font-weight:lighter;
+  text-transform: uppercase;
+}
+.trip_vert_line {
+  height: 15%;
+  width: 2px;
+  opacity: 0.3;
+  background: black;
+}

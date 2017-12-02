@@ -9,7 +9,7 @@ export class Home extends React.Component {
               <section className=".container-fluid col-sm-12 home_section">
                 <div className="ic_logo"/>
                 <div className="col-sm-12 logo_text">
-                  <p className="text_logo_big">Б.Э.М.С. & ДРУЗЬЯ</p>
+                  <p className="text_logo_big">Б.Э.М.С.& ДРУЗЬЯ</p>
                   <p className="text_logo_small">Отличные походы в лучшей компании</p>
                 </div>
               </section>
@@ -133,7 +133,7 @@ export class Home extends React.Component {
 
               <section className=" container-fluid col-md-12 section_home_footer">
                 <div className="contaier col-md-12 footer_media">
-                    <div className="col-sm-6 col-md-3 home_links">
+                    <div className="container col-sm-6 col-md-4 links">
                         <div className="instagram_icon_black"/>
                         <div className="facebook_icon_black"/>
                         <div className="vkontakte_icon_black"/>

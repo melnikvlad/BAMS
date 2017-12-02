@@ -1,7 +1,7 @@
 import React from "react";
 import {Route, NavLink, HashRouter} from "react-router-dom";
 import {Home} from "./Home";
-import {Stuff} from "./Stuff";
+import {Trips} from "./Trips";
 import {Contact} from "./Contact";
 
 export class Main extends React.Component {
@@ -14,14 +14,14 @@ export class Main extends React.Component {
               <div className="navbar navbar-default navbar-fixed-top">
                 <ul className="nav navbar-nav">
                   <li><NavLink to="/">ГЛАВНАЯ</NavLink></li>
-                  <li><NavLink to="/stuff">ПОХОДЫ</NavLink></li>
+                  <li><NavLink to="/trips">ПОХОДЫ</NavLink></li>
                   <li><NavLink to="/contact">СНАРЯЖЕНИЕ</NavLink></li>
                 </ul>
               </div>
             </div>
 
         <Route exact path="/" component={Home}/>
-        <Route path="/stuff" component={Stuff}/>
+        <Route path="/trips" component={Trips}/>
         <Route path="/contact" component={Contact}/>
       </div>
 

@@ -114,11 +114,13 @@
   .vert_line {
     height: 30%;
     width: 2px;
+    opacity: 0.3;
     background: black;
   }
 
   .inner_top_text {
     color: black;
+    text-decoration: overline;
     text-transform: uppercase;
     font-size: 18px;
   }
@@ -127,12 +129,13 @@
     color: black;
     text-transform: uppercase;
     font-size: 20px;
+    opacity: 0.6;
     text-align: center;
   }
 
   .inner_bot_text_small {
     color: black;
-
+    opacity: 0.7;
     font-size: 16px;
     text-align: center;
   }
@@ -169,8 +172,6 @@
     background-size: cover;
   }
 
-
-
   .section_home_footer {
     display: flex;
     width: 100%;
@@ -180,7 +181,6 @@
   }
 
   .footer_media {
-
     display: flex;
     margin-top: 40px;
     align-items: center;
@@ -203,6 +203,16 @@
     opacity: 0.75;
     justify-content: center;
     align-items: center;
+  }
+
+  .links {
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background: #eeeeee;
+    justify-content: space-between;
+    opacity: 0.75;
   }
 
   .button {
