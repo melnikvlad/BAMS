@@ -7,7 +7,7 @@ export class Home extends React.Component {
     return (
       <div className=".container-fluid">
               <section className=".container-fluid col-sm-12 home_section">
-                <div className="ic_logo"></div>
+                <div className="ic_logo"/>
                 <div className="col-sm-12 logo_text">
                   <p className="text_logo_big">Б.Э.М.С. & ДРУЗЬЯ</p>
                   <p className="text_logo_small">Отличные походы в лучшей компании</p>
@@ -16,10 +16,8 @@ export class Home extends React.Component {
 
               <section className=".container-fluid col-sm-12 home_section_empty_part">
                 <div className="col-sm-6 col-md-8 home_links">
-                    <p className="citata">Что-то там какая-то строка бородатый год и тар-ла-ла</p>
-                    <div className="button">
-                      <p className="citata">Нажми!</p>
-                    </div>
+                    <p className="citata">Присоединяйтесь к нам и получайте незабываемые эмоции</p>
+                    <p className="citata_b">Вступить</p>
                 </div>
               </section>
 
@@ -35,7 +33,7 @@ export class Home extends React.Component {
                       </div>
 
                       <div className="container col-md-12 inner_bot">
-                          <p className="inner_bot_text">Very long text to present something</p>
+                          <p className="inner_bot_text">Описание ближайшего актуального события на сайте или еще где-то</p>
                       </div>
 
                     </div>
@@ -51,7 +49,7 @@ export class Home extends React.Component {
                       </div>
 
                       <div className="container col-md-12 inner_bot">
-                          <p className="inner_bot_text_small">Very long text </p>
+                          <p className="inner_bot_text_small">Где проводится данное события - адрес или локация</p>
                       </div>
 
                     </div>
@@ -64,7 +62,7 @@ export class Home extends React.Component {
                       </div>
 
                       <div className="container col-md-12 inner_bot">
-                          <p className="inner_bot_text_small">Very long text </p>
+                          <p className="inner_bot_text_small">Декабрь 1, 2017</p>
                       </div>
 
                     </div>
