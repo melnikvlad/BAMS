@@ -1,27 +1,14 @@
 import React, {Component} from "react";
 import {List} from "./List";
 import { render } from "react-dom";
+import data from "./main.json"
 
 
 
 export class Trips extends React.Component {
   constructor(props) {
       super(props);
-      this.state = {
-        list: [{
-            id: 1,
-            text: "item 1"
-          },{
-            id: 2,
-            text: "item 2"
-          },{
-            id: 3,
-            text: "item 3"
-          },{
-            id: 4,
-            text: "item 4"
-          }]
-      }
+      this.state = data;
   }
   render() {
     return (

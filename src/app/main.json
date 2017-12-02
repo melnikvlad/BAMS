@@ -1,9 +1,24 @@
 {
-  "images": [
-    "IMG_5774.jpg",
-    "IMG_6305.jpg",
-    "IMG_6701.jpg",
-    "IMG_6732.jpg",
-    "IMG_6795.jpg"
+  "list": [
+    {
+      "id": 1,
+      "text": "IMG_5774.jpg"
+    },
+    {
+      "id": 2,
+      "text": "IMG_5775.jpg"
+    },
+    {
+      "id": 3,
+      "text": "IMG_5776.jpg"
+    },
+    {
+      "id": 4,
+      "text": "IMG_5777.jpg"
+    },
+    {
+      "id": 5,
+      "text": "Finally I made it for fuck sake"
+    }
   ]
 }
