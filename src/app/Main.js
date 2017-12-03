@@ -15,7 +15,7 @@ export class Main extends React.Component {
                 <ul className="nav navbar-nav">
                   <li><NavLink to="/">ГЛАВНАЯ</NavLink></li>
                   <li><NavLink to="/trips">ПОХОДЫ</NavLink></li>
-                  <li><NavLink to="/contact">СНАРЯЖЕНИЕ</NavLink></li>
+                  <li><NavLink to="/contact">УЧАСТНИКИ</NavLink></li>
                 </ul>
               </div>
             </div>
