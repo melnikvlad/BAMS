@@ -43,9 +43,6 @@
 .trip_blocks {
   width: 100vw;
   background: #eeeeee;
-}
-
-.trip_list {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -53,6 +50,7 @@
   flex-wrap: wrap;
   position: relative;
 }
+
 
 .trip_block {
   position: relative;
@@ -69,7 +67,7 @@
   background-repeat: no-repeat;
   background-size: contain;
   background-repeat: no-repeat;
-  width: 95vw;
+  width: 97vw;
   height: 15vh;
 }
 

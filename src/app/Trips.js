@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import {List} from "./List";
+import {Item} from "./Item";
 import { render } from "react-dom";
 import data from "./main.json"
 
@@ -21,7 +21,9 @@ export class Trips extends React.Component {
         </div>
 
         <div className="col-md-12 trip_blocks">
-          <List trips={this.state.trips}/>
+        {this.state.trips.map((item) => {
+          return <Item item={item} key={item.id}/>
+        })}
           <div className="trip_devider"/>
         </div>
       </div>
