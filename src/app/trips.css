@@ -59,10 +59,18 @@
   display: flex;
   flex-direction: column;
   height: 40vh;
-  background: blue;
   margin: 16px;
-
   flex: 0 1 30%;
+}
+
+.trip_devider {
+  background: url("assets/trips/trip_separator_2.png") no-repeat center center ;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 95vw;
+  height: 15vh;
 }
 
 .trip_block:hover {

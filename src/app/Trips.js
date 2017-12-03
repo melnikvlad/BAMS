@@ -20,8 +20,9 @@ export class Trips extends React.Component {
             <p className="trip_header_second_title">Маршруты и записки туриста</p>
         </div>
 
-        <div className="trip_blocks">
+        <div className="col-md-12 trip_blocks">
           <List trips={this.state.trips}/>
+          <div className="trip_devider"/>
         </div>
       </div>
     );
