@@ -4,11 +4,17 @@ export class Item extends React.Component {
   constructor(props) {
     super(props);
   }
+
   render() {
       return (
-        <li>
-            {this.props.item.text}
-        </li>
+        <div className="trip_block">
+          <img src={require(`${this.props.item.ic}`)} className="trip_block_ic"/>
+          <div className="trip_block_info"/>
+          <div className="trip_block_info_child">
+            <p className="trip_block_info_title">{this.props.item.title}</p>
+            <p className="trip_block_info_text">{this.props.item.bottom_title}</p>
+          </div>
+        </div>
       );
   }
 }

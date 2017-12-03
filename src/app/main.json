@@ -1,24 +1,34 @@
 {
-  "list": [
+  "trips": [
     {
       "id": 1,
-      "text": "IMG_5774.jpg"
+      "ic": "./assets/trips/trip_1.jpg",
+      "title": "Description 1",
+      "bottom_title": "Reandom text 1"
     },
     {
       "id": 2,
-      "text": "IMG_5775.jpg"
+      "ic": "./assets/trips/trip_2.jpg",
+      "title": "Description 2",
+      "bottom_title": "Reandom text 2"
     },
     {
       "id": 3,
-      "text": "IMG_5776.jpg"
+      "ic": "./assets/trips/trip_3.jpg",
+      "title": "Description 3",
+      "bottom_title": "Reandom text 3"
     },
     {
       "id": 4,
-      "text": "IMG_5777.jpg"
+      "ic": "./assets/trips/trip_4.jpg",
+      "title": "Description 4",
+      "bottom_title": "Reandom text 4"
     },
     {
       "id": 5,
-      "text": "Finally I made it for fuck sake"
+      "ic": "./assets/trips/trip_5.jpg",
+      "title": "Description 5",
+      "bottom_title": "Reandom text 5"
     }
   ]
 }

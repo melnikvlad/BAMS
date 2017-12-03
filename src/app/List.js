@@ -9,11 +9,11 @@ export class List extends React.Component {
 
   render() {
       return (
-        <ul>
-          {this.props.list.map((item) => {
+        <div className="trip_list">
+          {this.props.trips.map((item) => {
             return <Item item={item} key={item.id}/>
           })}
-        </ul>
+        </div>
       );
   }
 }
