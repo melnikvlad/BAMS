@@ -4,31 +4,138 @@
       "id": 1,
       "ic": "./assets/trips/trip_1.jpg",
       "title": "Фишт - Оштен",
-      "bottom_title": "Август 2017"
+      "bottom_title": "Август 2017",
+      "info": {
+          "header": "Summer trip on the Fisht - Oshten way",
+          "date": "August 2017",
+          "icon": "./assets/trips/trip_1_header.jpg",
+          "blocks": [{
+            "block_id": 1,
+            "header": true,
+            "header_text": "HEADER",
+            "text": "First row i've ever made in reactJS",
+            "images": [{
+              "photo_id": 1,
+              "src": " ",
+              "label": "first image 1"
+             }, {
+              "photo_id": 2,
+              "src": " ",
+              "label": "second image 1"
+            }]
+          }, {
+            "block_id": 2,
+            "header": true,
+            "header_text": "HEADER",
+            "text": "Second row i've ever made in reactJS",
+            "images": [{
+              "photo_id": 1,
+              "src": "",
+              "label": "first image 2"
+             }, {
+              "photo_id": 2,
+              "src": "",
+              "label": "second image 2"
+            }]
+          }, {
+            "block_id": 3,
+            "header": false,
+            "header_text": "",
+            "text": "Third row i've ever made in reactJS",
+            "images": [{
+              "photo_id": 1,
+              "src": "",
+              "label": "first image 3"
+             }, {
+              "photo_id": 2,
+              "src": "",
+              "label": "second image 3"
+            }]
+          }
+          ]
+        }
     },
     {
       "id": 2,
       "ic": "./assets/trips/trip_2.jpg",
       "title": "Description 2",
-      "bottom_title": "Reandom text 2"
+      "bottom_title": "Reandom text 2",
+      "info": {
+        "header": "Summer trip on the Black See",
+        "date": "September 2017",
+        "icon": "./assets/trips/trip_1_header.jpg",
+        "blocks": [{
+          "block_id": 1,
+          "header": true,
+          "header_text": "HEADER",
+          "text": "First row i've ever made in reactJS",
+          "images": [{
+            "photo_id": 1,
+            "src": " ",
+            "label": "first image 1"
+           }, {
+            "photo_id": 2,
+            "src": " ",
+            "label": "second image 1"
+          }]
+        }, {
+          "block_id": 2,
+          "header": true,
+          "header_text": "HEADER",
+          "text": "Second row i've ever made in reactJS",
+          "images": [{
+            "photo_id": 1,
+            "src": "",
+            "label": "first image 2"
+           }, {
+            "photo_id": 2,
+            "src": "",
+            "label": "second image 2"
+          }]
+        }, {
+          "block_id": 3,
+          "header": false,
+          "header_text": "",
+          "text": "Third row i've ever made in reactJS",
+          "images": [{
+            "photo_id": 1,
+            "src": "",
+            "label": "first image 3"
+           }, {
+            "photo_id": 2,
+            "src": "",
+            "label": "second image 3"
+          }]
+        }
+        ]
+        }
     },
     {
       "id": 3,
       "ic": "./assets/trips/trip_3.jpg",
       "title": "Description 3",
-      "bottom_title": "Reandom text 3"
+      "bottom_title": "Reandom text 3",
+      "info": {
+          "text": "Text 3"
+        }
     },
     {
       "id": 4,
       "ic": "./assets/trips/trip_4.jpg",
       "title": "Description 4",
-      "bottom_title": "Reandom text 4"
+      "bottom_title": "Reandom text 4",
+      "info": {
+          "text": "Text 4"
+        }
     },
     {
       "id": 5,
       "ic": "./assets/trips/trip_5.jpg",
       "title": "Description 5",
-      "bottom_title": "Reandom text 5"
+      "bottom_title": "Reandom text 5",
+      "info": {
+          "text": "Text 5"
+        }
     }
   ]
 }
