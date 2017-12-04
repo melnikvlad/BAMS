@@ -15,7 +15,7 @@ export class Trips extends React.Component {
   constructor(props) {
       super(props);
       this.changeButtonState = this.changeButtonState.bind(this)
-      this.handleShow = this.handleShow.bind(this);
+      
       this.state = {
         info: data,
         trip_id: 1

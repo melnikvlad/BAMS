@@ -324,7 +324,7 @@
 }
 
 .farmer_devider {
-  background: url("assets/farmer_devider.png") no-repeat top center fixed;
+  background: url("assets/farmer_devider.png") center center;
   background-size: contain;
   background-repeat: no-repeat;
   background-size: contain;
