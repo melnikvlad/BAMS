@@ -19,7 +19,7 @@ export class TripInfoBlock extends React.Component {
           <p className="trip_info_block_date">{this.props.item.info.date}</p>
         </div>
 
-        <div className="col-md-12 trip_after_header_devider"/>
+
 
         {this.props.item.info.blocks.map((block) => {
          return <Block block={block} key={block.block_id}/>
