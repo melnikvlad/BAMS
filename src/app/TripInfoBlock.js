@@ -1,5 +1,6 @@
 import React from "react";
 import { render } from "react-dom";
+import {Block} from "./Block";
 
 export class TripInfoBlock extends React.Component {
 
@@ -17,6 +18,14 @@ export class TripInfoBlock extends React.Component {
         <div>
           <p className="trip_info_block_date">{this.props.item.info.date}</p>
         </div>
+
+        <div className="col-md-12 trip_after_header_devider"/>
+
+        {this.props.item.info.blocks.map((block) => {
+         return <Block block={block} key={block.block_id}/>
+        })}
+
+        <div className="trip_bottom_icon"/>
       </div>
     );
   }
