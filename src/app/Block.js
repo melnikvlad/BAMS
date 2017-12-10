@@ -31,7 +31,7 @@ export class Block extends React.Component {
         <div className="col-md-12 block_images">
           {this.props.block.images.map((image) => {
            return(
-             <div className="block_image_and_label">
+             <div className="block_image_and_label" key={image.photo_id}>
               <img src={require(`${image.src}`)} className=" col-md-8 block_images_image"/>
               <p className="block_label">{image.label}</p>
             </div>

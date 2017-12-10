@@ -1,24 +1,18 @@
 
 .main {
   width: 100%;
-  background: url("assets/main2.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-
   .ic_logo {
-    background: url("assets/logo_transparent.png");
+    background: url("assets/logo_transparent.png") center;
     background-size: contain;
     background-repeat: no-repeat;
-    width: 40vh;
-    height: 40vh;
+    width: 50vh;
+    height: 50vh;
   }
 
   .content {
@@ -30,17 +24,15 @@
 
   .home_section {
     display: flex;
+    background: url("assets/main2.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     flex-direction: column;
+    height: 200vh;
+    padding-top: 25vh;
     justify-content: center;
-    height: 100vh;
-    align-items: center;
-  }
-
-  .home_section_empty_part {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    height: 80vh;
     align-items: center;
   }
 
@@ -56,8 +48,30 @@
     background-size: cover;
   }
 
+  .home_section_empty_part {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 125vh;
+      padding-top: 25vh;
+    align-items: center;
+  }
+
+  .home_links {
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    background: #eeeeee;
+    opacity: 0.75;
+    justify-content: center;
+    align-items: center;
+  }
+
   .section_invite {
     display: flex;
+    width: 100vw;
     height: 100vh;
     align-items: center;
     flex-direction: column;
@@ -143,10 +157,9 @@
   .inner_bot {
     margin-top: 16px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-
   }
 
   .invite_block_row_3 {
@@ -175,14 +188,12 @@
   .section_home_footer {
     display: flex;
     width: 100%;
-    height: 250px;
     background: #eeeeee;
-    justify-content: center;
+    justify-content: flex-end;
   }
 
   .footer_media {
     display: flex;
-    margin-top: 40px;
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
@@ -192,18 +203,6 @@
    background-image:none !important;
    filter:none !important;
 }
-
-  .home_links {
-    width: 100vw;
-    padding: 40px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    background: #eeeeee;
-    opacity: 0.75;
-    justify-content: center;
-    align-items: center;
-  }
 
   .links {
     padding: 40px;
@@ -333,13 +332,13 @@
 }
 
 .footer_devider {
-  background: url("assets/separator.png");
+  background: url("assets/separator.png") center top;
   background-size: contain;
   background-repeat: no-repeat;
   background-size: contain;
   background-repeat: no-repeat;
   width: 50vh;
-  height: 20vh;
+  height: 15vh;
 }
 
 .instagram_icon_black {
@@ -407,5 +406,4 @@
   display: flex;
   font-size: 16px;
   color: black;
-  margin-bottom: 25px;
 }

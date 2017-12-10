@@ -5,23 +5,26 @@ import styled from 'styled-components';
 export class Home extends React.Component {
   render() {
     return (
-      <div className=".container-fluid">
-              <section className=".container-fluid col-sm-12 home_section">
+      <div className="home">
+
+              <section className="home_section">
                 <div className="ic_logo"/>
                 <div className="col-sm-12 logo_text">
                   <p className="text_logo_big">Б.Э.М.С.& ДРУЗЬЯ</p>
                   <p className="text_logo_small">Отличные походы в лучшей компании</p>
                 </div>
+
+                <section className="home_section_empty_part">
+                  <div className="home_links">
+                      <p className="citata">Присоединяйтесь к нам и получайте незабываемые эмоции</p>
+                      <p className="citata_b">Вступить</p>
+                  </div>
+                </section>
               </section>
 
-              <section className=".container-fluid col-sm-12 home_section_empty_part">
-                <div className="col-sm-6 col-md-8 home_links">
-                    <p className="citata">Присоединяйтесь к нам и получайте незабываемые эмоции</p>
-                    <p className="citata_b">Вступить</p>
-                </div>
-              </section>
 
-              <section className="container col-md-12 section_invite">
+
+              <section className=" section_invite">
 
                   <div className="invite_row">
                     <div className="container col-md-3 invite_block_row_1"/>
@@ -50,6 +53,7 @@ export class Home extends React.Component {
 
                       <div className="container col-md-12 inner_bot">
                           <p className="inner_bot_text_small">Где проводится данное события - адрес или локация</p>
+                          <a href="https://www.google.ru">Подробнеe</a>
                       </div>
 
                     </div>
@@ -139,7 +143,7 @@ export class Home extends React.Component {
                         <div className="vkontakte_icon_black"/>
                     </div>
                     <div className="footer_devider"/>
-                    <div className="me container-fluid col-md-4">
+                    <div className="me container col-md-12">
                       <p> 2017 by Vlad Melnikov & Mary Vtyurina ™</p>
                     </div>
                 </div>
