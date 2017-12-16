@@ -101,5 +101,42 @@
           "text": "Text 5"
         }
     }
+  ],
+  "community": [
+    {
+      "person_id": 1,
+      "name": "Втюрин Владимир Николаевич",
+      "info": "Lorem Ipsum is simply dummy text ofthe printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy textever since the 1500s, when an unknown printer took agalley of type and scrambled it to make a type specimen book.",
+      "status": "Бывалый",
+      "src": "./assets/com/peaple/me1.jpg"
+    },
+    {
+      "person_id": 2,
+      "name": "Втюрина Марина Николаевна",
+      "info": "Lorem Ipsum is simply dummy text ofthe printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy textever since the 1500s, when an unknown printer took agalley of type and scrambled it to make a type specimen book.",
+      "status": "Бывалый",
+      "src": "./assets/com/peaple/me2.jpg"
+    },
+    {
+      "person_id": 3,
+      "name": "Втюрина Александра Владимировна",
+      "info": "Lorem Ipsum is simply dummy text ofthe printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy textever since the 1500s, when an unknown printer took agalley of type and scrambled it to make a type specimen book.",
+      "status": "Ухххх!",
+      "src": "./assets/com/peaple/me3.jpg"
+    },
+    {
+      "person_id": 4,
+      "name": "Втюрина Мария Владимировна",
+      "info": "Lorem Ipsum is simply dummy text ofthe printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy textever since the 1500s, when an unknown printer took agalley of type and scrambled it to make a type specimen book.",
+      "status": "Живчик",
+      "src": "./assets/com/peaple/me4.jpg"
+    },
+    {
+      "person_id": 5,
+      "name": "Втюрина Ирина Владимировна",
+      "info": "Lorem Ipsum is simply dummy text ofthe printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy textever since the 1500s, when an unknown printer took agalley of type and scrambled it to make a type specimen book.",
+      "status": "Сила и мозг группы",
+      "src": "./assets/com/peaple/me5.jpg"
+    }
   ]
 }

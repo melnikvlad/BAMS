@@ -2,7 +2,7 @@ import React from "react";
 import {Route, NavLink, HashRouter} from "react-router-dom";
 import {Home} from "./Home";
 import {Trips} from "./Trips";
-import {Contact} from "./Contact";
+import {Community} from "./Community";
 
 export class Main extends React.Component {
 
@@ -15,14 +15,14 @@ export class Main extends React.Component {
                 <ul className="nav navbar-nav">
                   <li><NavLink to="/">ГЛАВНАЯ</NavLink></li>
                   <li><NavLink to="/trips">ПОХОДЫ</NavLink></li>
-                  <li><NavLink to="/contact">УЧАСТНИКИ</NavLink></li>
+                  <li><NavLink to="/community">УЧАСТНИКИ</NavLink></li>
                 </ul>
               </div>
             </div>
 
         <Route exact path="/" component={Home}/>
         <Route path="/trips" component={Trips}/>
-        <Route path="/contact" component={Contact}/>
+        <Route path="/community" component={Community}/>
       </div>
 
     </HashRouter>
