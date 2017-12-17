@@ -10,12 +10,12 @@ export class Home extends React.Component {
               <section className="home_section">
                 <div className="ic_logo"/>
                 <div className="col-sm-12 logo_text">
-                  <p className="text_logo_big">Б.Э.М.С.& ДРУЗЬЯ</p>
+                  <p className="text_logo_big">Б.Э.М.С. & ДРУЗЬЯ</p>
                   <p className="text_logo_small">Отличные походы в лучшей компании</p>
                 </div>
 
                 <section className="home_section_empty_part">
-                  <div className="home_links">
+                  <div className="col-sm-12 home_links">
                       <p className="citata">Присоединяйтесь к нам и получайте незабываемые эмоции</p>
                       <p className="citata_b">Вступить</p>
                   </div>
@@ -27,8 +27,8 @@ export class Home extends React.Component {
               <section className=" section_invite">
 
                   <div className="invite_row">
-                    <div className="container col-md-3 invite_block_row_1"/>
-                    <div className="container col-md-6 invite_block_row_2">
+                    <div className="container col-md-3 col-sm-12 invite_block_row_1"/>
+                    <div className="container col-md-6 col-sm-12 invite_block_row_2">
 
                       <div className="container col-md-12 inner_top">
                         <p className="inner_top_text">Что</p>
@@ -40,11 +40,11 @@ export class Home extends React.Component {
                       </div>
 
                     </div>
-                    <div className="container col-md-3 invite_block_row_3"/>
+                    <div className="container col-md-3 col-sm-12 invite_block_row_3"/>
                   </div>
 
                   <div className="invite_row">
-                    <div className="container col-md-3 invite_block_row_4">
+                    <div className="container col-md-3 col-sm-12 invite_block_row_4">
 
                       <div className="container col-md-12 inner_top">
                         <p className="inner_top_text">Где</p>
@@ -85,9 +85,9 @@ export class Home extends React.Component {
                         <li data-target="#myCarousel" data-slide-to="2"></li>
                     </ol>
 
-                    <div class="carousel-inner" role="listbox">
-                        <div class="item active">
-                            <div className="col-xs-offset-3 col-sm-8 col-md-6 white">
+                    <div className="carousel-inner" role="listbox">
+                        <div class="row item active">
+                            <div className="col-md-offset-3 col-sm-offset-0 col-sm-12 col-md-6 white">
                               <p className="text_title">Title 1</p>
                               <p className="text">Cras facilisis urna ornare ex volutpat, et
                               convallis erat elementum. Ut aliquam, ipsum vitae
@@ -99,7 +99,7 @@ export class Home extends React.Component {
                             </div>
                         </div>
                         <div class="item">
-                          <div className="col-xs-offset-3 col-sm-8 col-md-6 white">
+                          <div className="col-md-offset-3 col-sm-offset-0 col-sm-12 col-md-6 white">
                             <p className="text_title">Title 2</p>
                             <p className="text">Cras facilisis urna ornare ex volutpat, et
                             convallis erat elementum. Ut aliquam, ipsum vitae
@@ -111,7 +111,7 @@ export class Home extends React.Component {
                           </div>
                         </div>
                         <div class="item">
-                          <div className="col-xs-offset-3 col-sm-8 col-md-6 white">
+                          <div className="col-md-offset-3 col-sm-offset-0 col-sm-12 col-md-6 white">
                             <p className="text_title">Title 3</p>
                             <p className="text">Cras facilisis urna ornare ex volutpat, et
                             convallis erat elementum. Ut aliquam, ipsum vitae
@@ -137,7 +137,7 @@ export class Home extends React.Component {
 
               <section className=" container-fluid col-md-12 section_home_footer">
                 <div className="contaier col-md-12 footer_media">
-                    <div className="container col-sm-6 col-md-4 links">
+                    <div className="container col-sm-12 col-md-4 links">
                         <div className="instagram_icon_black"/>
                         <div className="facebook_icon_black"/>
                         <div className="vkontakte_icon_black"/>

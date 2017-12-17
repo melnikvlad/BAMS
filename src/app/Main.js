@@ -11,7 +11,7 @@ export class Main extends React.Component {
       <HashRouter>
         <div className=".container-fluid main">
             <div className="nav_container">
-              <div className="navbar navbar-default navbar-fixed-top">
+              <div className=" navbar navbar-default navbar-fixed-top">
                 <ul className="nav navbar-nav">
                   <li><NavLink to="/">ГЛАВНАЯ</NavLink></li>
                   <li><NavLink to="/trips">ПОХОДЫ</NavLink></li>
