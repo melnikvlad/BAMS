@@ -36,7 +36,7 @@ export class Home extends React.Component {
                       </div>
 
                       <div className="container col-md-12 inner_bot">
-                          <p className="inner_bot_text">Описание ближайшего актуального события на сайте или еще где-то</p>
+                          <p className="inner_bot_text">Марафон горного бега ФИШТ-О-RUN 2018</p>
                       </div>
 
                     </div>
@@ -52,8 +52,8 @@ export class Home extends React.Component {
                       </div>
 
                       <div className="container col-md-12 inner_bot">
-                          <p className="inner_bot_text_small">Где проводится данное события - адрес или локация</p>
-                          <a href="https://www.google.ru">Подробнеe</a>
+                          <p className="inner_bot_text_small">Кавказский Биосферный заповедник, Яворовая поляна</p>
+                          <a href="http://fisht-marathon.ru">Подробнеe</a>
                       </div>
 
                     </div>
@@ -66,7 +66,7 @@ export class Home extends React.Component {
                       </div>
 
                       <div className="container col-md-12 inner_bot">
-                          <p className="inner_bot_text_small">Декабрь 1, 2017</p>
+                          <p className="inner_bot_text_small">23 июня, 2018</p>
                       </div>
 
                     </div>
@@ -88,37 +88,37 @@ export class Home extends React.Component {
                     <div className="carousel-inner" role="listbox">
                         <div class="row item active">
                             <div className="col-md-offset-3 col-sm-offset-0 col-sm-12 col-md-6 white">
-                              <p className="text_title">Title 1</p>
-                              <p className="text">Cras facilisis urna ornare ex volutpat, et
-                              convallis erat elementum. Ut aliquam, ipsum vitae
-                              gravida suscipit, metus dui bibendum est, eget rhoncus nibh
-                              metus nec massa. Maecenas hendrerit laoreet augue
-                              nec molestie. Cum sociis natoque penatibus et magnis
-                              dis parturient montes, nascetur ridiculus mus.</p>
+                              <p className="text_title">О нас</p>
+                              <p className="text">Группа людей, которые ежегодно забираются повыше в горы, чтобы отдохнуть от суеты, вдохновиться красотой природы и провести время с семьей и друзьями. 
+</p>
+                                <p className="text">
+                              Большой поход состоится в июле или августе, продолжительность 6-8 дней.
+                               Также участвуем в которотких выездах с мая по сентябрь. Главными качествами туриста считаем силу духа и стойкость характера.
+                               Возраст и опыт не имеют значения.
+                                После участия в двух походах вы становитесь членом клуба БЭМС и получаете памятный подарок - футболку с логотипом.</p>
                               <div className="farmer_devider"/>
                             </div>
                         </div>
                         <div class="item">
                           <div className="col-md-offset-3 col-sm-offset-0 col-sm-12 col-md-6 white">
-                            <p className="text_title">Title 2</p>
-                            <p className="text">Cras facilisis urna ornare ex volutpat, et
-                            convallis erat elementum. Ut aliquam, ipsum vitae
-                            gravida suscipit, metus dui bibendum est, eget rhoncus nibh
-                            metus nec massa. Maecenas hendrerit laoreet augue
-                            nec molestie. Cum sociis natoque penatibus et magnis
-                            dis parturient montes, nascetur ridiculus mus.</p>
+                            <p className="text_title">Достижения</p>
+                            <p className="text">Восхождения: г.Фишт, г.Оштен, г.Большой Тхач, г.Тыбга, г.Пшеха-Су. Похождение категорийных перевалов: пер.Цындышхо и пер.Семнадцати Южный.
+                            
+                            Озера: Кардывач, Вехний Кардывач, Инпси, Клумбочка, Хуко. Озера Архыза: Голубое, Глубокое, Медвежье, Семиозерье.</p>
+
                             <div className="farmer_devider"/>
                           </div>
                         </div>
                         <div class="item">
                           <div className="col-md-offset-3 col-sm-offset-0 col-sm-12 col-md-6 white">
-                            <p className="text_title">Title 3</p>
-                            <p className="text">Cras facilisis urna ornare ex volutpat, et
-                            convallis erat elementum. Ut aliquam, ipsum vitae
-                            gravida suscipit, metus dui bibendum est, eget rhoncus nibh
-                            metus nec massa. Maecenas hendrerit laoreet augue
-                            nec molestie. Cum sociis natoque penatibus et magnis
-                            dis parturient montes, nascetur ridiculus mus.</p>
+                            <p className="text_title">БЭМС</p>
+
+                            <p className="text">Б - Боевые Э - энергичные М - молодые, С - симпотичные.</p>
+                            <p className="text">
+                            Активная деятельность участников клуба БЭМС не ограничивается горными походами. 
+                            Мы так же участвуем в различных соревновательных забегах, сплавах и катаемся на лыжах.
+
+                            <p>Если вы член клуба и хотите опубликовать на сайте отзыв или историю о походе, присылайте материал на почту, указанную в контактах.</p></p>
                             <div className="farmer_devider"/>
                           </div>
                         </div>

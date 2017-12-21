@@ -24,7 +24,7 @@
 
     .home_section {
       display: flex;
-      background: url("assets/main2.jpg") no-repeat center center fixed;
+      background: url("assets/main_theme.jpg") no-repeat center center fixed;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
@@ -441,7 +441,7 @@ text-align: center;
 
   .home_section {
     display: flex;
-    background: url("assets/main2.jpg") no-repeat center center fixed;
+    background: url("assets/main_theme.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -595,7 +595,7 @@ text-align: center;
     display: flex;
     align-items: center;
     flex-direction: column;
-    background: url("assets/invite_mashroom.jpg") center center;
+    background: url("assets/flower.jpg") center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
