@@ -3,7 +3,7 @@
     {
       "id": 1,
       "ic": "./assets/trips/trip_1.jpg",
-      "title": "Фишт - Оштен",
+      "title": "Архыз",
       "bottom_title": "Август 2017",
       "info": {
           "header": "Summer trip on the Fisht - Oshten way",
@@ -42,8 +42,8 @@
     {
       "id": 2,
       "ic": "./assets/trips/trip_2.jpg",
-      "title": "Description 2",
-      "bottom_title": "Reandom text 2",
+      "title": "Фишт-Оштен",
+      "bottom_title": "Через горы к морю. Август 2017",
       "info": {
         "header": "Summer trip on the Black See",
         "date": "September 2017",
@@ -77,8 +77,8 @@
     {
       "id": 3,
       "ic": "./assets/trips/trip_3.jpg",
-      "title": "Description 3",
-      "bottom_title": "Reandom text 3",
+      "title": "Поход на оз. Кардывач",
+      "bottom_title": "Август 2016",
       "info": {
           "text": "Text 3"
         }
@@ -86,8 +86,8 @@
     {
       "id": 4,
       "ic": "./assets/trips/trip_4.jpg",
-      "title": "Description 4",
-      "bottom_title": "Reandom text 4",
+      "title": "Сплав по Илети",
+      "bottom_title": "Республика Чувашия. Май 2017",
       "info": {
           "text": "Text 4"
         }
@@ -95,8 +95,8 @@
     {
       "id": 5,
       "ic": "./assets/trips/trip_5.jpg",
-      "title": "Description 5",
-      "bottom_title": "Reandom text 5",
+      "title": "Восхождение на г. Фишт",
+      "bottom_title": "Август 2014",
       "info": {
           "text": "Text 5"
         }
