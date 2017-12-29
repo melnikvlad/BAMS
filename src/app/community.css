@@ -21,6 +21,7 @@
 .com_header_main{
   color: white;
   font-size: 50px;
+  margin-top: 30vh;
   text-decoration: overline;
   font-weight: normal;
   text-transform: uppercase;
@@ -167,7 +168,7 @@
 .cardMan {
   background: #eeeeee;
   padding-top: 16px;
-  
+
   display:flex;
   flex-direction: column;
   align-items: center;
