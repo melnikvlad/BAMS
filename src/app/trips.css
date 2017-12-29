@@ -33,7 +33,7 @@
   display: flex;
   width: 100vw;
   flex-direction: column;
-  background: url("assets/trip_header.jpg") no-repeat bottom center fixed;
+  background: url("assets/trips/image2.jpg") no-repeat bottom center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
