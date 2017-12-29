@@ -22,6 +22,12 @@ export class Home extends React.Component {
                 </section>
               </section>
 
+              <section className="home_section_what">
+                <div className="col-sm-12 home_links">
+                    <p className="citata">Ближайшие походы и мероприятия</p>
+                </div>
+              </section>
+
 
 
               <section className=" section_invite">
@@ -79,18 +85,11 @@ export class Home extends React.Component {
               <div class="bs-example">
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
-                    <ol class="carousel-indicators">
-                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#myCarousel" data-slide-to="1"></li>
-                        <li data-target="#myCarousel" data-slide-to="2"></li>
-                    </ol>
-
                     <div className="carousel-inner" role="listbox">
                         <div class="row item active">
                             <div className="col-md-offset-3 col-sm-offset-0 col-sm-12 col-md-6 white">
                               <p className="text_title">О нас</p>
-                              <p className="text">Группа людей, которые ежегодно забираются повыше в горы, чтобы отдохнуть от суеты, вдохновиться красотой природы и провести время с семьей и друзьями. 
-</p>
+                              <p className="text">Группа людей, которые ежегодно забираются повыше в горы, чтобы отдохнуть от суеты, вдохновиться красотой природы и провести время с семьей и друзьями. </p>
                                 <p className="text">
                               Большой поход состоится в июле или августе, продолжительность 6-8 дней.
                                Также участвуем в которотких выездах с мая по сентябрь. Главными качествами туриста считаем силу духа и стойкость характера.
@@ -103,7 +102,7 @@ export class Home extends React.Component {
                           <div className="col-md-offset-3 col-sm-offset-0 col-sm-12 col-md-6 white">
                             <p className="text_title">Достижения</p>
                             <p className="text">Восхождения: г.Фишт, г.Оштен, г.Большой Тхач, г.Тыбга, г.Пшеха-Су. Похождение категорийных перевалов: пер.Цындышхо и пер.Семнадцати Южный.
-                            
+
                             Озера: Кардывач, Вехний Кардывач, Инпси, Клумбочка, Хуко. Озера Архыза: Голубое, Глубокое, Медвежье, Семиозерье.</p>
 
                             <div className="farmer_devider"/>
@@ -115,7 +114,7 @@ export class Home extends React.Component {
 
                             <p className="text">Б - Боевые Э - энергичные М - молодые, С - симпотичные.</p>
                             <p className="text">
-                            Активная деятельность участников клуба БЭМС не ограничивается горными походами. 
+                            Активная деятельность участников клуба БЭМС не ограничивается горными походами.
                             Мы так же участвуем в различных соревновательных забегах, сплавах и катаемся на лыжах.
 
                             <p>Если вы член клуба и хотите опубликовать на сайте отзыв или историю о походе, присылайте материал на почту, указанную в контактах.</p></p>

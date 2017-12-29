@@ -499,6 +499,17 @@ text-align: center;
     background-size: cover;
   }
 
+  .home_section_what {
+    height: 20vh;
+    background: #eeeeee;
+  }
+
+  .home_section_what p {
+    font-size: 26px;
+    font-weight: 400;
+    text-decoration: overline;
+  }
+
   .invite_row {
     display: flex;
     width: 100vw;
@@ -621,6 +632,8 @@ text-align: center;
    filter:none !important;
 }
 
+
+
   .links {
     padding: 40px;
     display: flex;
@@ -699,6 +712,7 @@ text-align: center;
   }
 
   .white {
+    height: 70vh;
     margin-top: 80px;
     display: flex;
     flex-direction: column;
