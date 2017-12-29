@@ -2,6 +2,7 @@
   "trips": [
     {
       "id": 1,
+      "ready": true,
       "ic": "./assets/trips/trip_1.jpg",
       "title": "Архыз",
       "bottom_title": "Август 2017",
@@ -201,6 +202,7 @@
     },
     {
       "id": 2,
+      "ready": true,
       "ic": "./assets/trips/trip_2.jpg",
       "title": "Фишт-Оштен",
       "bottom_title": "Через горы к морю. Август 2017",
@@ -278,6 +280,7 @@
     },
     {
       "id": 3,
+      "ready": false,
       "ic": "./assets/trips/trip_3.jpg",
       "title": "Поход на оз. Кардывач",
       "bottom_title": "Август 2016",
@@ -287,6 +290,7 @@
     },
     {
       "id": 4,
+      "ready": false,
       "ic": "./assets/trips/trip_4.jpg",
       "title": "Сплав по Илети",
       "bottom_title": "Республика Чувашия. Май 2017",
@@ -296,6 +300,7 @@
     },
     {
       "id": 5,
+      "ready": false,
       "ic": "./assets/trips/trip_5.jpg",
       "title": "Восхождение на г. Фишт",
       "bottom_title": "Август 2014",

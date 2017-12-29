@@ -22,7 +22,9 @@ scrollFunction() {
 
   changeButtonState(id) {
     this.setState({ trip_id: id });
-    document.getElementById('content_here').scrollIntoView()
+    if(id <= 2){
+      document.getElementById('content_here').scrollIntoView()
+    }
   }
 
   handleScroll() {

@@ -9,24 +9,28 @@ export class TripInfoBlock extends React.Component {
   }
 
   render() {
-    return(
-      <div className="col-md-12 trip_info_block">
-        <img src={require(`${this.props.item.info.icon}`)} className="trip_block_icon_header"/>
-        <div>
-          <p className="trip_info_block_header">{this.props.item.info.header}</p>
+    const ready = this.props.item.ready;
+    if(ready) {
+      return(
+        <div className="col-md-12 trip_info_block">
+          <img src={require(`${this.props.item.info.icon}`)} className="trip_block_icon_header"/>
+          <div>
+            <p className="trip_info_block_header">{this.props.item.info.header}</p>
+          </div>
+          <div>
+            <p className="trip_info_block_date">{this.props.item.info.date}</p>
+          </div>
+
+          {this.props.item.info.blocks.map((block) => {
+           return <Block block={block} key={block.block_id}/>
+          })}
+
+          <div className="trip_bottom_icon"/>
         </div>
-        <div>
-          <p className="trip_info_block_date">{this.props.item.info.date}</p>
-        </div>
+      );
+    } else {
+      return(null);
+    }
 
-
-
-        {this.props.item.info.blocks.map((block) => {
-         return <Block block={block} key={block.block_id}/>
-        })}
-
-        <div className="trip_bottom_icon"/>
-      </div>
-    );
   }
 }
