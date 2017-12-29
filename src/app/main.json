@@ -205,31 +205,73 @@
       "title": "Фишт-Оштен",
       "bottom_title": "Через горы к морю. Август 2017",
       "info": {
-        "header": "Summer trip on the Black See",
-        "date": "September 2017",
+        "header": "Через горы к морю",
+        "date": "Август 2017",
         "icon": "./assets/trips/trip_1_header.jpg",
         "blocks": [{
           "block_id": 1,
           "header": true,
-          "header_text": "HEADER",
-          "text": "First row i've ever made in reactJS",
+          "header_text": "День 1. Яворовая поляна - Восхождение на Оштен",
+          "text": "Вышли рано утром с Яворовой поляны, зашли в домик работников заповедника, где на месте заплатили за пребывание в заповеднике - 300р в день с человека. Поднялись к Инструкторской щели и пошли от нее вправо по дороге к приюту Це-це. Примерно на полпути остановились у ручья, где оставили вещи, пополнили запасы воды и начали восхождение на г. Оштен. Тропа настолько захожена, что ее можно даже назвать дорогой. Этот маршрут очень популярный, потому что не требует специального снаряжения и находится близко к выходу из заповедника. С вершины открывается прекрасный вид на г. Фишт и прилегающие территории. Главное - быть аккуратным и защищаться от палящего солнышка.",
           "images": [{
             "photo_id": 1,
-            "src": "./assets/trips/trip_3.jpg",
-            "label": "first image 1"
+            "src": "./assets/trips/trip2/1.jpg",
+            "label": "Подъем на Оштен"
+           },{
+            "photo_id": 2,
+            "src": "./assets/trips/trip2/2.jpg",
+            "label": "Почти на вершине"
+           },{
+            "photo_id": 3,
+            "src": "./assets/trips/trip2/3.jpg",
+            "label": "На вершине г. Оштен"
            }]
         }, {
           "block_id": 2,
-          "header": false,
-          "header_text": "",
-          "text": "Second row i've ever made in reactJS",
-          "images": []
+          "header": true,
+          "header_text": "День 2. Подножье г. Оштен - Фишт-приют",
+          "text": "Продолжили наш путь, огибая Оштен справа и не заходя на приют Це-це. По тропе вышли к середине подъема от оз. Псенодах. Примерно к часу дня поднялись на Фишт-Оштеновский перевал, с которого уже видны домики приюта, хотя идти к ним больше двух часов. Тучи подгоняли, и уже к трем часам мы были на месте стоянки.",
+          "images": [{
+            "photo_id": 2,
+            "src": "./assets/trips/trip2/5.jpg",
+            "label": "Дорога на Фишт-Оштеновский перевал"
+           }]
         }, {
           "block_id": 3,
-          "header": false,
-          "header_text": "",
-          "text": "Third row i've ever made in reactJS",
-          "images": []
+          "header": true,
+          "header_text": "День 3. Радиальный выход на Малый ледник",
+          "text": "На третий день мы планировали сделать восхождение на г. Фишт, но погода была плохая, поэтому решили не рисковать и сделать радиальный выход на Малый ледник Фишта. Через несколько километров пути свернули с дороги на Белореченский перевал направо (стоит большой указатель на Малый ледник) и начали подъем. Через некоторое время дождь прекратился и выглянуло солнышко. После возвращения к палаткам и небольшой передышки забрались на Фиштёнок - большой камень, который лежит на приюте.",
+          "images": [{
+            "photo_id": 1,
+            "src": "./assets/trips/trip2/6.jpg",
+            "label": "Подъем на Малый ледник"
+           },{
+            "photo_id": 2,
+            "src": "./assets/trips/trip2/7.jpg",
+            "label": "Большая туча, из-за которой не пошли на восхождение"
+           },{
+            "photo_id": 1,
+            "src": "./assets/trips/trip2/8.jpg",
+            "label": "На Малом леднике"
+           },{
+            "photo_id": 2,
+            "src": "./assets/trips/trip2/9.jpg",
+            "label": "Вид с Фиштёнка"
+           }]
+        }, {
+          "block_id": 4,
+          "header": true,
+          "header_text": "Дни 4-5. Фишт приют - Бабук аул - Выход к морю.",
+          "text": "На следующий день прошли Белореченский перевал, за ним Черкесский и начали спускаться с гор по Веселому спуску. На Черкесском перевале нашли чернику. К четырем часам дошли до приюта Бабук-аул - всю дорогу тучки подгоняли. На следующий день рано утром поймали попутный УАЗик и в обед уже отдыхали на море. Отличный маршрут для начинающих туристов, которые хотят попробовать свои силы.",
+          "images": [{
+            "photo_id": 1,
+            "src": "./assets/trips/trip2/10.jpg",
+            "label": "Вид с Черкесского перевала"
+           },{
+            "photo_id": 2,
+            "src": "./assets/trips/trip2/11.jpg",
+            "label": "пос. Головинка"
+           }]
         }
         ]
         }
@@ -265,38 +307,38 @@
   "community": [
     {
       "person_id": 1,
-      "name": "Втюрин Владимир Николаевич",
-      "info": "Lorem Ipsum is simply dummy text ofthe printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy textever since the 1500s, when an unknown printer took agalley of type and scrambled it to make a type specimen book.",
+      "name": "Втюрин Владимир",
+      "info": "__",
       "status": "Бывалый",
-      "src": "./assets/com/peaple/me1.jpg"
+      "src": "./assets/com/people/1.jpg"
     },
     {
       "person_id": 2,
-      "name": "Втюрина Марина Николаевна",
-      "info": "Lorem Ipsum is simply dummy text ofthe printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy textever since the 1500s, when an unknown printer took agalley of type and scrambled it to make a type specimen book.",
+      "name": "Втюрина Марина",
+      "info": "__",
       "status": "Бывалый",
-      "src": "./assets/com/peaple/me2.jpg"
+      "src": "./assets/com/people/4.jpg"
     },
     {
       "person_id": 3,
-      "name": "Втюрина Александра Владимировна",
-      "info": "Lorem Ipsum is simply dummy text ofthe printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy textever since the 1500s, when an unknown printer took agalley of type and scrambled it to make a type specimen book.",
-      "status": "Ухххх!",
-      "src": "./assets/com/peaple/me3.jpg"
+      "name": "Лещинский Андрей",
+      "info": "__",
+      "status": "Бывалый",
+      "src": "./assets/com/people/2.jpg"
     },
     {
       "person_id": 4,
-      "name": "Втюрина Мария Владимировна",
-      "info": "Lorem Ipsum is simply dummy text ofthe printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy textever since the 1500s, when an unknown printer took agalley of type and scrambled it to make a type specimen book.",
+      "name": "Втюрина Мария",
+      "info": "__",
       "status": "Живчик",
-      "src": "./assets/com/peaple/me4.jpg"
+      "src": "./assets/com/people/20.jpg"
     },
     {
       "person_id": 5,
-      "name": "Втюрина Ирина Владимировна",
-      "info": "Lorem Ipsum is simply dummy text ofthe printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy textever since the 1500s, when an unknown printer took agalley of type and scrambled it to make a type specimen book.",
+      "name": "Втюрина Ирина",
+      "info": "__",
       "status": "Сила и мозг группы",
-      "src": "./assets/com/peaple/me5.jpg"
+      "src": "./assets/com/people/27.jpg"
     }
   ]
 }
