@@ -3,7 +3,7 @@
   width: 100vw;
   height: 100vh;
   flex-direction: column;
-  background: url("assets/com/main.jpg") no-repeat bottom right fixed;
+  background: url("assets/m/image3.jpg") no-repeat bottom right fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -19,7 +19,7 @@
 }
 
 .com_header_main{
-  color: black;
+  color: white;
   font-size: 50px;
   text-decoration: overline;
   font-weight: normal;
@@ -29,12 +29,12 @@
 .com_vert_line {
   height: 15%;
   width: 3px;
-  background: black;
+  background: white;
   margin-left: 16px;
 }
 
 .com_header_description {
-  color: black;
+  color: white;
   margin-top: 16px;
   font-size: 25px;
   font-weight:lighter;
@@ -125,7 +125,7 @@
   height: 130vh;
   padding-top: 5vw;;
   flex-direction: column;
-  background: url("assets/com/main2.jpg") no-repeat bottom right fixed;
+  background: url("assets/m/34_.jpg") no-repeat bottom right fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
