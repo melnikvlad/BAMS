@@ -22,13 +22,6 @@ export class Home extends React.Component {
                 </section>
               </section>
 
-              <section className="home_section_what">
-                <div className="col-sm-12 home_links">
-                    <p className="citata">Ближайшие походы и мероприятия</p>
-                </div>
-              </section>
-
-
 
               <section className=" section_invite">
 
@@ -37,6 +30,7 @@ export class Home extends React.Component {
                     <div className="container col-md-6 col-sm-12 invite_block_row_2">
 
                       <div className="container col-md-12 inner_top">
+                        <p className="inner_top_top_text">Ближайшие походы и мероприятия</p>
                         <p className="inner_top_text">Что</p>
                         <div className="vert_line"/>
                       </div>
@@ -142,6 +136,9 @@ export class Home extends React.Component {
                         <div className="vkontakte_icon_black"/>
                     </div>
                     <div className="footer_devider"/>
+                    <div className="email container col-md-12">
+                      <p>mary.vtyurina@gmail.com</p>
+                    </div>
                     <div className="me container col-md-12">
                       <p> 2017 by Vlad Melnikov & Mary Vtyurina ™</p>
                     </div>

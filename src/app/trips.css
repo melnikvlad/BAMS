@@ -1,285 +1,858 @@
-.myBtn {
-    display: none;
+@media screen and (min-width: 701px)and (max-width: 1450px) {
+  .myBtn {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 30px;
+      z-index: 99;
+      border: none;
+      outline: none;
+      background-color: red;
+      color: white;
+      cursor: pointer;
+      padding: 15px;
+      border-radius: 10px;
+  }
+
+  .myBtn:hover {
     position: fixed;
     bottom: 20px;
     right: 30px;
     z-index: 99;
     border: none;
     outline: none;
-    background-color: red;
+    background-color: blue;
     color: white;
     cursor: pointer;
     padding: 15px;
     border-radius: 10px;
-    /*<button onClick={this.topFunction} id="myBtn" title="Go to top">Top</button>*/
+  }
+
+  .trip_main {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("assets/trips/image2.jpg") no-repeat bottom center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .trip_section_header {
+    display: flex;
+    height: 60vh;
+    flex-direction: column;
+    padding-top: 15vh;
+    padding-right: 7vh;
+    padding-bottom: 5vh;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .trip_header_title {
+    color: white;
+    font-size: 50px;
+    text-decoration: overline;
+    font-weight: normal;
+    text-transform: uppercase;
+  }
+
+  .trip_header_second_title {
+    color: white;
+    margin-top: 16px;
+    font-size: 25px;
+    font-weight: normal;
+    text-transform: uppercase;
+  }
+  .trip_vert_line {
+    height: 15%;
+    width: 3px;
+    background: white;
+  }
+
+  .trip_blocks {
+    width: 100vw;
+    background: #eeeeee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+  }
+
+  .trip_block {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    margin: 16px;
+    flex: 0 1 30%;
+  }
+
+  .trip_devider {
+    background: url("assets/trips/trip_separator_2.png") no-repeat center center ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 97vw;
+    height: 15vh;
+  }
+
+  .trip_block:hover {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    margin: 16px;
+    flex: 0 1 30%;
+  }
+
+
+  .trip_block:hover .trip_block_info {
+    visibility:visible;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: black;
+    opacity: 0.5;
+  }
+
+  .trip_block:hover .trip_block_info_child {
+    position: absolute;
+    visibility: visible;
+    width: 100%;
+
+    display: flex;
+    background: white;
+    flex-direction: column;
+    padding-bottom:8px;
+  }
+
+  .trip_block_ic {
+    display: block;
+    height: 100%;
+  }
+
+  .trip_block_info {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    display: flex;
+    background: black;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .trip_block_info_child{
+    position: absolute;
+    visibility: hidden;
+    width: 100%;
+    display: flex;
+    background: #eeeeee;
+    flex-direction: column;
+    padding: 8px;
+  }
+
+  .trip_block_info_title {
+    display: block;
+    color: black;
+    text-decoration: overline;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .trip_block_info_text {
+    display: block;
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  .trip_info_container {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    margin-top: 20vh;
+    align-items: center;
+    padding: 100px;
+
+  }
+
+  .trip_info_block {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+  }
+
+  .trip_block_icon_header {
+    display: block;
+    width: 15vw;
+
+  }
+
+  .trip_info_block_header {
+    margin-top: 32px;
+    color: black;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-style: oblique;
+    font-weight: bold;
+  }
+
+  .trip_info_block_date {
+    margin-top: 20px;
+    color: black;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-decoration: overline;
+    font-weight: 400;
+  }
+
+  .block {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .trip_after_header_devider {
+    background: url("assets/trips/trip_separator_block.png") no-repeat center center;
+    display: block;
+    width: 100%;
+    height: 15vh;
+  }
+
+  .trip_bottom_icon {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background: url("assets/trips/montain2.png") no-repeat center center ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 97vw;
+    height: 15vh;
+  }
+
+  .block_header {
+    display: flex;
+  }
+
+  .block_header p {
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .block_text {
+    display: flex;
+  }
+
+  .block_text p {
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .block_images {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .block_image_and_label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .block_images_image {
+    padding:16px;
+    width: 65%;
+    height: auto;
+  }
+
+  .block_label {
+    margin-top: 10px;
+    color: black;
+    font-size: 16px;
+    font-style: italic;
+  }
 }
 
-.myBtn:hover {
+@media screen and (max-width: 700px) {
+  .myBtn {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 30px;
+      z-index: 99;
+      border: none;
+      outline: none;
+      background-color: red;
+      color: white;
+      cursor: pointer;
+      padding: 15px;
+      border-radius: 10px;
+  }
 
-  position: fixed; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
-  background-color: blue; /* Set a background color */
-  color: white; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px; /* Some padding */
-  border-radius: 10px;
+  .myBtn:hover {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+  }
+
+  .trip_main {
+    display: flex;
+    width: 100vw;
+    padding-bottom: 20vh;
+    flex-direction: column;
+    background: url("assets/trips/image2.jpg") no-repeat bottom center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .trip_section_header {
+    display: flex;
+    height: 60vh;
+    flex-direction: column;
+    padding-bottom: 5vh;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .trip_header_title {
+    color: white;
+    font-size: 50px;
+    text-decoration: overline;
+    font-weight: normal;
+    text-transform: uppercase;
+  }
+
+  .trip_header_second_title {
+    color: white;
+    margin-top: 16px;
+    text-align: right;
+    font-size: 25px;
+    font-weight: normal;
+    text-transform: uppercase;
+  }
+  .trip_vert_line {
+    height: 15%;
+    width: 3px;
+    background: white;
+  }
+
+  .trip_blocks {
+    width: 100vw;
+    background: #eeeeee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+  }
+
+
+  .trip_block {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    margin: 16px;
+    flex: 0 1 30%;
+  }
+
+  .trip_devider {
+    background: url("assets/trips/trip_separator_2.png") no-repeat center center ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 97vw;
+    height: 15vh;
+  }
+
+  .trip_block:hover {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    margin: 16px;
+    flex: 0 1 30%;
+  }
+
+
+  .trip_block:hover .trip_block_info {
+    visibility:visible;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: black;
+    opacity: 0.5;
+  }
+
+  .trip_block:hover .trip_block_info_child {
+    position: absolute;
+    visibility: visible;
+    width: 100%;
+    display: flex;
+    background: white;
+    flex-direction: column;
+    padding-bottom:8px;
+  }
+
+  .trip_block_ic {
+    display: block;
+    height: 100%;
+  }
+
+  .trip_block_info {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    display: flex;
+    background: black;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .trip_block_info_child{
+    position: absolute;
+    visibility: visible;
+    width: 100%;
+    display: flex;
+    background: white;
+    flex-direction: column;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  .trip_block_info_title {
+    display: block;
+    color: black;
+    text-decoration: overline;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .trip_block_info_text {
+    display: block;
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  .trip_info_container {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    margin-top: 20vh;
+    align-items: center;
+    padding: 50px;
+  }
+
+  .trip_info_block {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+  }
+
+  .trip_block_icon_header {
+    display: block;
+    width: 40vw;
+  }
+
+  .trip_info_block_header {
+    margin-top: 32px;
+    color: black;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-style: oblique;
+    font-weight: bold;
+  }
+
+  .trip_info_block_date {
+    margin-top: 20px;
+    color: black;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-decoration: overline;
+    font-weight: 400;
+  }
+
+  .block {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .trip_after_header_devider {
+    background: url("assets/trips/trip_separator_block.png") no-repeat center center;
+    display: block;
+    width: 100%;
+    height: 15vh;
+  }
+
+  .trip_bottom_icon {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background: url("assets/trips/montain2.png") no-repeat center center ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 97vw;
+    height: 15vh;
+  }
+
+  .block_header {
+    display: flex;
+  }
+
+  .block_header p {
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .block_text {
+    display: flex;
+    text-align: center;
+  }
+
+  .block_text p {
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .block_images {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .block_image_and_label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .block_images_image {
+    width: 100%;
+    height: auto;
+  }
+
+  .block_label {
+    margin-top: 10px;
+    color: black;
+    font-size: 16px;
+    font-style: italic;
+  }
 }
 
-.trip_main {
-  display: flex;
-  width: 100vw;
-  flex-direction: column;
-  background: url("assets/trips/image2.jpg") no-repeat bottom center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-.trip_section_header {
-  display: flex;
-  height: 60vh;
-  flex-direction: column;
-  padding-top: 15vh;
-  padding-right: 7vh;
-  padding-bottom: 5vh;
-  justify-content: center;
-  align-items: flex-end;
-}
-.trip_header_title {
-  color: white;
-  font-size: 50px;
-  text-decoration: overline;
-  font-weight: normal;
-  text-transform: uppercase;
-}
+@media screen and (min-width: 1451px) and (max-width: 2300px) {
+  .myBtn {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 30px;
+      z-index: 99;
+      border: none;
+      outline: none;
+      background-color: red;
+      color: white;
+      cursor: pointer;
+      padding: 15px;
+      border-radius: 10px;
+  }
 
-.trip_header_second_title {
-  color: white;
-  margin-top: 16px;
-  font-size: 25px;
-  font-weight:lighter;
-  text-transform: uppercase;
-}
-.trip_vert_line {
-  height: 15%;
-  width: 3px;
-  background: white;
-}
+  .myBtn:hover {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+  }
 
-.trip_blocks {
-  width: 100vw;
-  background: #eeeeee;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-  position: relative;
-}
+  .trip_main {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("assets/trips/image2.jpg") no-repeat bottom center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .trip_section_header {
+    display: flex;
+    height: 60vh;
+    flex-direction: column;
+    padding-top: 15vh;
+    padding-right: 9vh;
+    padding-bottom: 5vh;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .trip_header_title {
+    color: white;
+    font-size: 60px;
+    text-decoration: overline;
+    font-weight: normal;
+    text-transform: uppercase;
+  }
+
+  .trip_header_second_title {
+    color: white;
+    margin-top: 16px;
+    font-size: 36px;
+    font-weight: normal;
+    text-transform: uppercase;
+  }
+  .trip_vert_line {
+    height: 20%;
+    width: 3px;
+    background: white;
+  }
+
+  .trip_blocks {
+    width: 100vw;
+    background: #eeeeee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+  }
+
+  .trip_block {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    margin: 16px;
+    flex: 0 1 30%;
+  }
+
+  .trip_devider {
+    background: url("assets/trips/trip_separator_2.png") no-repeat center center ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 97vw;
+    height: 15vh;
+  }
+
+  .trip_block:hover {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    margin: 16px;
+    flex: 0 1 30%;
+  }
 
 
-.trip_block {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  height: 40vh;
-  margin: 16px;
-  flex: 0 1 30%;
-}
+  .trip_block:hover .trip_block_info {
+    visibility:visible;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: black;
+    opacity: 0.5;
+  }
 
-.trip_devider {
-  background: url("assets/trips/trip_separator_2.png") no-repeat center center ;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 97vw;
-  height: 15vh;
-}
+  .trip_block:hover .trip_block_info_child {
+    position: absolute;
+    visibility: visible;
+    width: 100%;
 
-.trip_block:hover {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  height: 40vh;
-  margin: 16px;
-  flex: 0 1 30%;
-}
+    display: flex;
+    background: white;
+    flex-direction: column;
+    padding-bottom:8px;
+  }
 
+  .trip_block_ic {
+    display: block;
+    height: 100%;
+  }
 
-.trip_block:hover .trip_block_info {
-  visibility:visible;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  background: black;
-  opacity: 0.5;
-}
+  .trip_block_info {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    display: flex;
+    background: black;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
 
-.trip_block:hover .trip_block_info_child {
-  position: absolute;
-  visibility: visible;
-  width: 100%;
+  .trip_block_info_child{
+    position: absolute;
+    visibility: hidden;
+    width: 100%;
+    display: flex;
+    background: #eeeeee;
+    flex-direction: column;
+    padding: 16px;
+  }
 
-  display: flex;
-  background: white;
-  flex-direction: column;
-  padding-bottom:8px;
-}
+  .trip_block_info_title {
+    display: block;
+    color: black;
+    text-decoration: overline;
+    font-weight: bold;
+    font-size: 26px;
+  }
 
-.trip_block_ic {
-  display: block;
-  height: 100%;
-}
+  .trip_block_info_text {
+    display: block;
+    color: black;
+    font-weight: 400;
+    font-size: 26px;
+  }
 
-.trip_block_info {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  visibility: hidden;
-  display: flex;
-  background: black;
-  flex-direction: column;
-  justify-content: flex-end;
-}
+  .trip_info_container {
+    display: flex;
+    width: 90vw;
+    flex-direction: column;
+    margin-top: 20vh;
+    align-items: center;
+    padding: 50px;
+  }
 
-.trip_block_info_child{
-  position: absolute;
-  visibility: hidden;
-  width: 100%;
-  display: flex;
-  background: #eeeeee;
-  flex-direction: column;
-  padding: 8px;
-}
+  .trip_info_block {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+  }
 
-.trip_block_info_title {
-  display: block;
-  color: black;
-  text-decoration: overline;
-  font-weight: bold;
-  font-size: 18px;
-}
+  .trip_block_icon_header {
+    display: block;
+    width: 20vw;
+  }
 
-.trip_block_info_text {
-  display: block;
-  color: black;
-  font-weight: 400;
-  font-size: 16px;
-}
+  .trip_info_block_header {
+    margin-top: 32px;
+    color: black;
+    font-size: 56px;
+    text-transform: uppercase;
+    font-style: oblique;
+    font-weight: bold;
+  }
 
-.trip_info_container {
-  display: flex;
-  width: 100vw;
-  flex-direction: column;
-  margin-top: 20vh;
-  align-items: center;
-  padding: 50px;
+  .trip_info_block_date {
+    margin-top: 20px;
+    color: black;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-decoration: overline;
+    font-weight: 400;
+  }
 
-}
+  .block {
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-.trip_info_block {
-  padding: 16px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background: white;
-}
+  .trip_after_header_devider {
+    background: url("assets/trips/trip_separator_block.png") no-repeat center center;
+    display: block;
+    width: 100%;
+    height: 15vh;
+  }
 
-.trip_block_icon_header {
-  display: block;
-  width: 15vw;
+  .trip_bottom_icon {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background: url("assets/trips/montain2.png") no-repeat center center ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 97vw;
+    height: 15vh;
+  }
 
-}
+  .block_header {
+    display: flex;
+  }
 
-.trip_info_block_header {
-  margin-top: 32px;
-  color: black;
-  font-size: 30px;
-  text-transform: uppercase;
-  font-style: oblique;
-  font-weight: bold;
-}
+  .block_header p {
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+  }
 
-.trip_info_block_date {
-  margin-top: 20px;
-  color: black;
-  font-size: 25px;
-  text-transform: uppercase;
-  text-decoration: overline;
-  font-weight: 400;
-}
+  .block_text {
+    display: flex;
+  }
 
-.block {
-  padding: 16px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+  .block_text p {
+    color: black;
+    font-size: 26px;
+    font-weight: 400;
+  }
 
-.trip_after_header_devider {
-  background: url("assets/trips/trip_separator_block.png") no-repeat center center;
-  display: block;
-  width: 100%;
-  height: 15vh;
-}
+  .block_images {
+    display: flex;
+    flex-direction: column;
+  }
 
-.trip_bottom_icon {
-  margin-top: 50px;
-  margin-bottom: 30px;
-  background: url("assets/trips/montain2.png") no-repeat center center ;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 97vw;
-  height: 15vh;
-}
+  .block_image_and_label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-.block_header {
-  display: flex;
-}
+  .block_images_image {
+    padding:16px;
+    width: 60%;
+    height: auto;
+  }
 
-.block_header p {
-  color: black;
-  font-size: 25px;
-  font-weight: bold;
-}
-
-.block_text {
-  display: flex;
-}
-
-.block_text p {
-  color: black;
-  font-size: 16px;
-  font-weight: 400;
-}
-
-.block_images {
-  display: flex;
-  flex-direction: column;
-}
-
-.block_image_and_label {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.block_images_image {
-  padding:16px;
-  width: 50%;
-  height: auto;
-}
-
-.block_label {
-  margin-top: 10px;
-  color: black;
-  font-size: 16px;
-  font-style: italic;
+  .block_label {
+    margin-top: 10px;
+    color: black;
+    font-size: 24px;
+    font-style: italic;
+  }
 }

@@ -47,7 +47,7 @@ scrollFunction() {
     return (
       <div className="trip_main">
 
-        <div className="col-md-12 trip_section_header">
+        <div className="col-md-12 col-sm-12 trip_section_header">
             <p className="trip_header_title">Походы</p>
             <div className="trip_vert_line"/>
             <p className="trip_header_second_title">Маршруты и записки туриста</p>
