@@ -26,7 +26,7 @@ export class Community extends React.Component {
           <div className="com_promotion_separator_top"/>
 
           <div className="col-md-12 com_promotion_title_block">
-            <p className="com_promotion_title_text">What is Lorem Ipsum?</p>
+            <p className="com_promotion_title_text">Дружная команда БЭМС</p>
             <p className="col-md-6 com_promotion_title_info">
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys
