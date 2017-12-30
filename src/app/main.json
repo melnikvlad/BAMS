@@ -328,15 +328,15 @@
       "person_id": 4,
       "name": "Втюрина Мария",
       "info": "__",
-      "status": "Развед-команда",
+      "status": "Живчик",
       "src": "./assets/com/people/20.jpg"
     },
     {
       "person_id": 22,
       "name": "Втюрина Александра",
       "info": "__",
-      "status": "Бывалый",
-      "src": "./assets/com/people/4.jpg"
+      "status": "Эльбрус-красавчик",
+      "src": "./assets/com/people/13.jpg"
     },
     {
       "person_id": 5,
@@ -357,165 +357,151 @@
       "name": "Мельников Владислав",
       "info": "__",
       "status": "Технарь",
-      "src": "./assets/com/people/1.jpg"
+      "src": "./assets/com/people/23.jpg"
     },
     {
       "person_id": 7,
       "name": "Киселева Полина",
       "info": "__",
       "status": "Музыкальное сопровождение",
-      "src": "./assets/com/people/4.jpg"
+      "src": "./assets/com/people/9.jpg"
     },
     {
       "person_id": 8,
       "name": "Остапенко Андрей",
       "info": "__",
       "status": "Бывалый",
-      "src": "./assets/com/people/2.jpg"
+      "src": "./assets/com/people/19.jpg"
     },
     {
       "person_id": 10,
       "name": "Федоров Евгений",
       "info": "__",
       "status": "Человек-навигатор",
-      "src": "./assets/com/people/27.jpg"
+      "src": "./assets/com/people/6.jpg"
     },{
       "person_id": 11,
       "name": "Федорова Лилия",
       "info": "__",
       "status": "Храброе сердце",
-      "src": "./assets/com/people/1.jpg"
+      "src": "./assets/com/people/26.jpg"
     },
     {
       "person_id": 12,
       "name": "Федорова Валерия",
       "info": "__",
       "status": "Походник со стажем",
-      "src": "./assets/com/people/4.jpg"
+      "src": "./assets/com/people/18.jpg"
     },
     {
       "person_id": 13,
       "name": "Федоров Тимофей",
       "info": "__",
       "status": "Энерджайзер",
-      "src": "./assets/com/people/2.jpg"
+      "src": "./assets/com/people/7.jpg"
     },
     {
       "person_id": 14,
       "name": "Карпова Татьяна",
       "info": "__",
       "status": "Живчик",
-      "src": "./assets/com/people/20.jpg"
+      "src": "./assets/com/people/25.jpg"
     },
     {
       "person_id": 15,
       "name": "Карпов Павел",
       "info": "__",
       "status": "Бывалый",
-      "src": "./assets/com/people/27.jpg"
+      "src": "./assets/com/people/15.jpg"
     },{
       "person_id": 16,
       "name": "Мелихова Анна",
       "info": "__",
       "status": "Волчара",
-      "src": "./assets/com/people/1.jpg"
+      "src": "./assets/com/people/17.jpg"
     },
     {
       "person_id": 9,
       "name": "Мелихов Евгений",
       "info": "__",
       "status": "А давайте ...",
-      "src": "./assets/com/people/20.jpg"
+      "src": "./assets/com/people/30.jpg"
     },
     {
       "person_id": 17,
       "name": "Пивоваров Денис",
       "info": "__",
       "status": "Развед-команда",
-      "src": "./assets/com/people/4.jpg"
+      "src": "./assets/com/people/3.jpg"
     },
     {
       "person_id": 18,
       "name": "Пивоваров Валера",
       "info": "__",
       "status": "Рыбак",
-      "src": "./assets/com/people/2.jpg"
+      "src": "./assets/com/people/8.jpg"
     },
     {
       "person_id": 19,
       "name": "Якшов Илья",
       "info": "__",
       "status": "Развед-команда",
-      "src": "./assets/com/people/20.jpg"
+      "src": "./assets/com/people/24.jpg"
     },
     {
       "person_id": 20,
       "name": "Якшова Любовь",
       "info": "__",
       "status": "Главный по сюрпризам",
-      "src": "./assets/com/people/27.jpg"
+      "src": "./assets/com/people/10.jpg"
     },{
       "person_id": 21,
       "name": "Терзиева Александра",
       "info": "__",
       "status": "Выживший",
-      "src": "./assets/com/people/1.jpg"
+      "src": "./assets/com/people/12.jpg"
     },    
     {
       "person_id": 23,
       "name": "Люпаева Татьяна",
       "info": "__",
       "status": "Новичок",
-      "src": "./assets/com/people/2.jpg"
+      "src": "./assets/com/people/14.jpg"
     },
     {
       "person_id": 26,
       "name": "Люпаева Лариса",
       "info": "__",
-      "status": "Сила и мозг группы",
-      "src": "./assets/com/people/27.jpg"
+      "status": "Новичок",
+      "src": "./assets/com/people/28.jpg"
     },
     {
       "person_id": 24,
       "name": "Айдаркин Евгений",
       "info": "__",
       "status": "Пловец",
-      "src": "./assets/com/people/20.jpg"
+      "src": "./assets/com/people/16.jpg"
     },
     {
       "person_id": 25,
       "name": "Петров Андрей",
       "info": "__",
       "status": "Философ",
-      "src": "./assets/com/people/27.jpg"
+      "src": "./assets/com/people/21.jpg"
     },
     {
       "person_id": 27,
-      "name": "Сергей",
+      "name": "Сергей Чебоксары",
       "info": "__",
       "status": "Сплавщик",
-      "src": "./assets/com/people/1.jpg"
+      "src": "./assets/com/people/22.jpg"
     },
     {
       "person_id": 28,
-      "name": "Александр",
+      "name": "Александр Фамилия",
       "info": "__",
       "status": "Бывалый",
-      "src": "./assets/com/people/4.jpg"
-    },
-    {
-      "person_id": 29,
-      "name": "Федор",
-      "info": "__",
-      "status": "Новичок",
-      "src": "./assets/com/people/2.jpg"
-    },
-    {
-      "person_id": 30,
-      "name": "Втюрина Мария",
-      "info": "__",
-      "status": "Живчик",
-      "src": "./assets/com/people/20.jpg"
+      "src": "./assets/com/people/5.jpg"
     }
   ]
 }

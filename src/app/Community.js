@@ -26,12 +26,15 @@ export class Community extends React.Component {
           <div className="com_promotion_separator_top"/>
 
           <div className="col-md-12 com_promotion_title_block">
-            <p className="com_promotion_title_text">What is Lorem Ipsum?</p>
+            <p className="com_promotion_title_text">Дружная команда БЭМС</p>
             <p className="col-md-6 com_promotion_title_info">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys</p>
+            Присоединяйтесь к нашему туристическому клубу и проводите выходые или отпуск в кругу семьи и близких друзей. Без сотовой связи, 
+            интернета и других благ цивилизации, от которых хочется отдохнуть.
+
+            Чтобы попасть в список учасников нужно сходить в 2 похода или больше - обязательно нужно вернуться второй раз и доказать свою стойкость. 
+            Каждый член клуба БЕМС получает футболку с эмблемой и оригинальным логотипом.
+            Ждем всех смельчаков наслаждаться красотами природы вместе с нами! 
+            </p>
             <div className="container col-sm-6 col-md-4 links">
                 <div className="instagram_icon_black"/>
                 <div className="facebook_icon_black"/>
