@@ -7,6 +7,11 @@
     align-items: center;
   }
 
+  .nav_container .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
     .ic_logo {
       background: url("assets/logo_transparent.png") center;
       background-size: contain;
@@ -113,7 +118,8 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      height:25vh;
+      height:30vh;
+      padding-bottom: 16px;
     }
 
     .invite_block_row_6 {
@@ -128,7 +134,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      height: 40%;
+      height: 60%;
     }
 
     .vert_line {
@@ -142,7 +148,15 @@
       color: black;
       text-decoration: overline;
       text-transform: uppercase;
-      font-size: 16px;
+      font-size: 14px;
+    }
+
+    .inner_top_top_text {
+      color: black;
+      text-decoration: overline;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 14px;
     }
 
     .inner_bot_text {
@@ -194,7 +208,7 @@
       display: flex;
       width: 100%;
       background: #eeeeee;
-      justify-content: flex-end;
+      justify-content: center;
     }
 
     .footer_media {
@@ -210,11 +224,13 @@
   }
 
     .links {
-      padding: 25px;
+      width: 100%;
+      padding-top: 25px;
+      padding-bottom: 25px;
       display: flex;
       flex-direction: row;
       background: #eeeeee;
-      justify-content: space-between;
+      justify-content: space-around;
       opacity: 0.75;
     }
 
@@ -290,6 +306,7 @@ text-align: center;
     }
 
     .white {
+      height: 70vh;
       margin-top: 40px;
       display: flex;
       flex-direction: column;
@@ -562,8 +579,17 @@ text-align: center;
 
   .inner_top_text {
     color: black;
+    margin-top: 16px;
     text-decoration: overline;
     text-transform: uppercase;
+    font-size: 18px;
+  }
+
+  .inner_top_top_text {
+    color: black;
+    text-decoration: overline;
+    text-transform: uppercase;
+    font-weight: bold;
     font-size: 18px;
   }
 
@@ -632,8 +658,6 @@ text-align: center;
    filter:none !important;
 }
 
-
-
   .links {
     padding: 40px;
     display: flex;
@@ -648,7 +672,6 @@ text-align: center;
     margin-left: 40px;
     padding-left: 36px;
     padding-right: 36px;
-
     display: block;
     border: 2px solid black;
   }
@@ -836,6 +859,460 @@ text-align: center;
   justify-content: center;
   display: flex;
   font-size: 16px;
+  color: black;
+}
+.email {
+  background: #eeeeee;
+  justify-content: center;
+  display: flex;
+  font-size: 16px;
+  font-style: normal;
+  text-decoration: overline;
+  color: black;
+}
+}
+
+@media screen and (min-width: 1451px) and (max-width: 2300px) {
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+  .ic_logo {
+    background: url("assets/logo_transparent.png") center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50vh;
+    height: 50vh;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home_section {
+    display: flex;
+    background: url("assets/main_theme.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    flex-direction: column;
+    height: 200vh;
+    padding-top: 25vh;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section_3 {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    background: url("assets/view2.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .home_section_empty_part {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 125vh;
+    padding-top: 25vh;
+    align-items: center;
+  }
+
+  .home_links {
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    background: #eeeeee;
+    opacity: 0.75;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section_invite {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    background: #eeeeee;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .home_section_what {
+    height: 20vh;
+    background: #eeeeee;
+  }
+
+  .home_section_what p {
+    font-size: 26px;
+    font-weight: 400;
+    text-decoration: overline;
+  }
+
+  .invite_row {
+    display: flex;
+    width: 100vw;
+    height: 50vh;
+  }
+
+  .invite_block_row_1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: url("assets/invite_spider.jpg") center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .invite_block_row_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .invite_block_row_4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .invite_block_row_6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .inner_top {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 40%;
+  }
+
+  .vert_line {
+    height: 40%;
+    width: 3px;
+    opacity: 0.3;
+    background: black;
+  }
+
+  .inner_top_text {
+    color: black;
+    margin-top: 16px;
+    text-decoration: overline;
+    text-transform: uppercase;
+    font-size: 24px;
+  }
+
+  .inner_top_top_text {
+    color: black;
+    text-decoration: overline;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 26px;
+  }
+
+  .inner_bot_text {
+    color: black;
+    text-transform: uppercase;
+    font-size: 24px;
+    opacity: 0.6;
+    text-align: center;
+  }
+
+  .inner_bot_text_small {
+    color: black;
+    opacity: 0.7;
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .inner_bot {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .inner_bot a {
+    font-size: 24px;
+  }
+
+  .invite_block_row_3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: url("assets/invite_pine.jpg") center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .invite_block_row_5 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: url("assets/flower.jpg") center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .section_home_footer {
+    display: flex;
+    width: 100%;
+    background: #eeeeee;
+    justify-content: flex-end;
+  }
+
+  .footer_media {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .carousel-control.left, .carousel-control.right {
+   background-image:none !important;
+   filter:none !important;
+}
+
+  .links {
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background: #eeeeee;
+    justify-content: space-between;
+    opacity: 0.75;
+  }
+
+  .button {
+    margin-left: 40px;
+    padding-left: 36px;
+    padding-right: 36px;
+    display: block;
+    border: 2px solid black;
+  }
+
+  .citata {
+    color: black;
+    font-size: 26px;
+    font-style: bold;
+    text-transform: uppercase;
+  }
+
+  .citata_b {
+    margin-left: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: black;
+    font-size: 26px;
+    font-style: bold;
+    border: 2px solid transparent;
+    text-decoration: overline;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .citata_b:hover {
+    margin-left: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: black;
+    font-size: 26px;
+    font-style: bold;
+    border: 3px solid black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: normal;
+  }
+
+  .logo_text {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    background-color: transparent;
+  }
+
+  .text_logo_big {
+    color: white;
+    font-size: 52px;
+  }
+
+  .text_logo_small {
+    color: white;
+    font-size: 40px;
+  }
+
+  .white {
+    height: 70vh;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: white;
+    opacity: 0.75;
+    align-content: center;
+  }
+
+  .text {
+    font-size: 24px;
+    text-align: center;
+    color: black;
+  }
+
+  .text_title {
+    font-size: 34px;
+    text-decoration: overline;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+  }
+
+  li:hover {
+    font-weight: bold;
+    text-decoration: overline;
+  }
+
+  .title {
+    color: black;
+    font-weight: bold;
+  }
+
+.carousel {
+    height: 90vh;
+}
+
+.farmer_devider {
+  background: url("assets/farmer_devider.png") center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 20vh;
+}
+
+.footer_devider {
+  background: url("assets/separator.png") center top;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 50vh;
+  height: 15vh;
+}
+
+.instagram_icon_black {
+  background: url("assets/insta_black.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 7vh;
+  height: 7vh;
+}
+
+.facebook_icon_black {
+  background: url("assets/face_black.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 7vh;
+  height: 7vh;
+}
+
+.vkontakte_icon_black {
+  background: url("assets/vk_black.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 7vh;
+  height: 7vh;
+}
+
+.instagram_icon_black:hover {
+  background: url("assets/insta_black_hover.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 7vh;
+  height: 7vh;
+}
+
+.facebook_icon_black:hover {
+  background: url("assets/face_black_hover.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 7vh;
+  height: 7vh;
+}
+
+.vkontakte_icon_black:hover {
+  background: url("assets/vk_black_hover.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 7vh;
+  height: 7vh;
+}
+
+.me {
+  background: #eeeeee;
+  justify-content: center;
+  display: flex;
+  font-size: 26px;
+  color: black;
+}
+
+.email {
+  background: #eeeeee;
+  justify-content: center;
+  display: flex;
+  font-size: 26px;
+  font-style: normal;
+  text-decoration: overline;
   color: black;
 }
 }
