@@ -112,7 +112,7 @@ export class Home extends React.Component {
                           <div className="col-md-offset-3 col-sm-offset-0 col-sm-12 col-md-6 white">
                             <p className="text_title">БЭМС</p>
 
-                            <p className="text">Б - Боевые Э - энергичные М - молодые, С - симпотичные.</p>
+                            <p className="text">Б - Боевые, Э - энергичные, М - молодые, С - симпотичные.</p>
                             <p className="text">
                             Активная деятельность участников клуба БЭМС не ограничивается горными походами.
                             Мы так же участвуем в различных соревновательных забегах, сплавах и катаемся на лыжах.
