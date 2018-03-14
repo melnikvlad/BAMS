@@ -311,6 +311,13 @@
   ],
   "community": [
     {
+      "person_id": 3,
+      "name": "Лещинский Андрей",
+      "info": "__",
+      "status": "Самый старший группы",
+      "src": "./assets/com/people/2.jpg"
+    },
+    {
       "person_id": 1,
       "name": "Втюрин Владимир",
       "info": "__",
@@ -344,13 +351,6 @@
       "info": "__",
       "status": "Сила и мозг группы",
       "src": "./assets/com/people/27.jpg"
-    },
-    {
-      "person_id": 3,
-      "name": "Лещинский Андрей",
-      "info": "__",
-      "status": "Старший группы",
-      "src": "./assets/com/people/2.jpg"
     },
     {
       "person_id": 6,
